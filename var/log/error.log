@@ -1,0 +1,1050 @@
+[2023-02-11 06:02:21] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\wamp64\www\newApp/classes/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\wamp64\www\FARMASIC\src\config\autoload.php:17
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(17): RecursiveDirectoryIterator->__construct('C:\\wamp64\\www\\n...')
+#1 [internal function]: {closure}('Dispatcher')
+#2 C:\wamp64\www\newApp\index.php(3): spl_autoload_call('Dispatcher')
+#3 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 17]
+[2023-02-11 06:02:24] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\wamp64\www\newApp/classes/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\wamp64\www\FARMASIC\src\config\autoload.php:17
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(17): RecursiveDirectoryIterator->__construct('C:\\wamp64\\www\\n...')
+#1 [internal function]: {closure}('Dispatcher')
+#2 C:\wamp64\www\newApp\index.php(3): spl_autoload_call('Dispatcher')
+#3 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 17]
+[2023-02-11 06:02:31] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\wamp64\www\newApp/classes/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\wamp64\www\FARMASIC\src\config\autoload.php:17
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(17): RecursiveDirectoryIterator->__construct('C:\\wamp64\\www\\n...')
+#1 [internal function]: {closure}('Dispatcher')
+#2 C:\wamp64\www\newApp\index.php(3): spl_autoload_call('Dispatcher')
+#3 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 17]
+[2023-02-11 06:02:51] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\wamp64\www\FARMASIC\src/vendor/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\wamp64\www\FARMASIC\src\config\autoload.php:17
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(17): RecursiveDirectoryIterator->__construct('C:\\wamp64\\www\\F...')
+#1 [internal function]: {closure}('Dispatcher')
+#2 C:\wamp64\www\newApp\index.php(3): spl_autoload_call('Dispatcher')
+#3 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 17]
+[2023-02-11 06:02:05] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\wamp64\www\FARMASIC\src/libs/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\wamp64\www\FARMASIC\src\config\autoload.php:16
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(16): RecursiveDirectoryIterator->__construct('C:\\wamp64\\www\\F...')
+#1 [internal function]: {closure}('Dispatcher')
+#2 C:\wamp64\www\newApp\index.php(3): spl_autoload_call('Dispatcher')
+#3 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 16]
+[2023-02-11 06:02:17] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\wamp64\www\FARMASIC\srcclasses): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\wamp64\www\FARMASIC\src\config\autoload.php:16
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(16): RecursiveDirectoryIterator->__construct('C:\\wamp64\\www\\F...')
+#1 [internal function]: {closure}('Dispatcher')
+#2 C:\wamp64\www\newApp\index.php(3): spl_autoload_call('Dispatcher')
+#3 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 16]
+[2023-02-11 06:02:27] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\wamp64\www\FARMASIC\src/libs): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\wamp64\www\FARMASIC\src\config\autoload.php:16
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(16): RecursiveDirectoryIterator->__construct('C:\\wamp64\\www\\F...')
+#1 [internal function]: {closure}('Dispatcher')
+#2 C:\wamp64\www\newApp\index.php(3): spl_autoload_call('Dispatcher')
+#3 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 16]
+[2023-02-11 06:02:47] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:39] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:37] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:07] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:32] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:34] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:34] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:34] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:49] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:49] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:50] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:50] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:50] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:51] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:51] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:51] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:51] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:51] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:52] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:52] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:52] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:53] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:37] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:59] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:00] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:00] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:01] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:29] [E_WARNING: require_once(C:\wamp64\www\FARMASIC\src\config/bootstrings.inc.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:56] [E_WARNING: require_once(C:\wamp64\www\FARMASIC\src\config/bootstrings.inc.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:27] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(3): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:13] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(3): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:18] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:23] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:34] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:40] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:41] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:41] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:41] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:37] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:47] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:48] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:48] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:40] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:41] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:41] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:42] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:42] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:42] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:42] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:43] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:43] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:44] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:44] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:44] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:31] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:31] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:32] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:25] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:26] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:26] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:27] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:27] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:08] [E_WARNING: require_once(../../vendor/autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:31] [E_WARNING: require_once(C:\wamp64\www\FARMASIC\src\config../../vendor/autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:59] [E_WARNING: require_once(/vendor/autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:13] [E_WARNING: require_once(/vendor/autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:14] [E_WARNING: require_once(/vendor/autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:15] [E_WARNING: require_once(/vendor/autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:22] [E_WARNING: require_once(/vendor/autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:30] [E_WARNING: require_once(C:\wamp64\www\vendor\autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\FARMASIC\src\config\autoload.php] [LINE 3]
+[2023-02-11 06:02:41] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:18
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(5): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 18]
+[2023-02-11 06:02:03] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:56] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:15] [E_ERROR: Uncaught Error: Class 'Dispatcher' not found in C:\wamp64\www\newApp\index.php:3
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\wamp64\www\newApp\index.php] [LINE 3]
+[2023-02-11 06:02:22] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:36] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:38] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:39] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:39] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:34] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:44] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:55] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:59] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:14] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:15] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:16] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:16] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:45] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:09] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:26] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:26] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:26] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 06:02:38] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:28] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:36] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:36] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:36] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:45] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:46] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:46] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:46] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:09] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:24] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\bootstrings.php:22
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\bootstrings.php(27): bootstrings->__construct()
+#1 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\bootstrings.php] [LINE 22]
+[2023-02-11 07:02:47] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:07] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\core\Controller.php] [LINE 16]
+[2023-02-11 07:02:01] [E_WARNING: Use of undefined constant DEFAULT_THEME_NAME - assumed 'DEFAULT_THEME_NAME' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 3]
+[2023-02-11 07:02:03] [E_WARNING: Use of undefined constant DEFAULT_THEME_NAME - assumed 'DEFAULT_THEME_NAME' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 3]
+[2023-02-11 07:02:03] [E_WARNING: Use of undefined constant DEFAULT_THEME_NAME - assumed 'DEFAULT_THEME_NAME' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 3]
+[2023-02-11 07:02:40] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 07:02:01] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 07:02:08] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:06] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:07] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:07] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:18] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:51] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:51] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:51] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:37] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:37] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:38] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:43] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:44] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:52] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:52] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:52] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:18] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:19] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:19] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:19] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:20] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php:5
+Stack trace:
+#0 C:\wamp64\www\FARMASIC\src\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\F...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire2ad41a56b171ebbdcd857f1000fa4f81('1d906d586f8cbff...', 'C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit2ad41a56b171ebbdcd857f1000fa4f81::getLoader()
+#4 C:\wamp64\www\newApp\config\config.inc.php(10): require_once('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+  thrown] [IN FILE C:\wamp64\www\FARMASIC\src\config\define_uri.inc.php] [LINE 5]
+[2023-02-11 07:02:00] [E_WARNING: require_once(autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\newApp\config\config.inc.php] [LINE 10]
+[2023-02-11 07:02:20] [E_WARNING: require_once(C:\wamp64\www\farmasicautoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\newApp\config\config.inc.php] [LINE 10]
+[2023-02-11 07:02:47] [E_WARNING: require_once(C:\wamp64\www\farmasicautoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\newApp\config\config.inc.php] [LINE 10]
+[2023-02-11 07:02:59] [E_WARNING: require_once(C:\wamp64\www\farmasic/autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\newApp\config\config.inc.php] [LINE 10]
+[2023-02-11 08:02:09] [E_WARNING: Use of undefined constant PARENT_DIR - assumed 'PARENT_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\config\autoload.php] [LINE 6]
+[2023-02-11 08:02:05] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Controller.php] [LINE 16]
+[2023-02-11 08:02:27] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequire34bd3bdef6e047117d03944e0a887978('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInit34bd3bdef6e047117d03944e0a887978::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:53] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequirefd83f3ef2ffaca983bd55034c400ddb9('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInitfd83f3ef2ffaca983bd55034c400ddb9::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:54] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequirefd83f3ef2ffaca983bd55034c400ddb9('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInitfd83f3ef2ffaca983bd55034c400ddb9::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:54] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequirefd83f3ef2ffaca983bd55034c400ddb9('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInitfd83f3ef2ffaca983bd55034c400ddb9::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:55] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequirefd83f3ef2ffaca983bd55034c400ddb9('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInitfd83f3ef2ffaca983bd55034c400ddb9::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:56] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequirefd83f3ef2ffaca983bd55034c400ddb9('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInitfd83f3ef2ffaca983bd55034c400ddb9::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:56] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequirefd83f3ef2ffaca983bd55034c400ddb9('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInitfd83f3ef2ffaca983bd55034c400ddb9::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:57] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequirefd83f3ef2ffaca983bd55034c400ddb9('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInitfd83f3ef2ffaca983bd55034c400ddb9::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:57] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequirefd83f3ef2ffaca983bd55034c400ddb9('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInitfd83f3ef2ffaca983bd55034c400ddb9::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:57] [E_ERROR: Uncaught Error: Class 'Configuration' not found in C:\wamp64\www\farmasic\config\define_uri.inc.php:4
+Stack trace:
+#0 C:\wamp64\www\farmasic\config\autoload.php(4): require_once()
+#1 C:\wamp64\www\farmasic\config\defines.inc.php(45): require_once('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(53): require('C:\\wamp64\\www\\f...')
+#3 C:\wamp64\www\newApp\vendor\composer\autoload_real.php(36): composerRequirefd83f3ef2ffaca983bd55034c400ddb9('d20414ccb1bef68...', 'C:\\wamp64\\www\\n...')
+#4 C:\wamp64\www\newApp\vendor\autoload.php(12): ComposerAutoloaderInitfd83f3ef2ffaca983bd55034c400ddb9::getLoader()
+#5 C:\wamp64\www\newApp\config\config.inc.php(9): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\newApp\index.php(2): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown] [IN FILE C:\wamp64\www\farmasic\config\define_uri.inc.php] [LINE 4]
+[2023-02-11 08:02:23] [E_WARNING: Use of undefined constant _DB_HOST_ - assumed '_DB_HOST_' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Db.php] [LINE 9]
+[2023-02-11 08:02:28] [E_WARNING: Use of undefined constant _DB_HOST_ - assumed '_DB_HOST_' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Db.php] [LINE 9]
+[2023-02-11 08:02:17] [E_WARNING: Use of undefined constant _DB_HOST_ - assumed '_DB_HOST_' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Db.php] [LINE 9]
+[2023-02-11 08:02:19] [E_WARNING: Use of undefined constant _DB_HOST_ - assumed '_DB_HOST_' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Db.php] [LINE 9]
+[2023-02-11 08:02:19] [E_WARNING: Use of undefined constant _DB_HOST_ - assumed '_DB_HOST_' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Db.php] [LINE 9]
+[2023-02-11 08:02:38] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Controller.php] [LINE 16]
+[2023-02-11 08:02:09] [E_WARNING: Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Controller.php] [LINE 16]
+[2023-02-11 08:02:16] [E_WARNING: Use of undefined constant _DB_HOST_ - assumed '_DB_HOST_' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Db.php] [LINE 9]
+[2023-02-11 08:02:27] [E_WARNING: Use of undefined constant _DB_HOST_ - assumed '_DB_HOST_' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\farmasic\core\Db.php] [LINE 9]
+[2023-02-11 08:02:54] [E_WARNING: require_once(C:\wamp64\www\farmasic\config\autoload.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\farmasic\config\defines.inc.php] [LINE 45]
+[2023-02-11 08:02:16] [E_WARNING: scandir(C:\wamp64\www\newApp/js): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\wamp64\www\farmasic\core\Tools.php] [LINE 220]
+[2023-02-11 08:02:00] [E_WARNING: Use of undefined constant CURRENT_PATH - assumed 'CURRENT_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\newApp\config\config.inc.php] [LINE 9]
+[2023-02-11 08:02:10] [E_WARNING: scandir(C:\wamp64\www\newApp/js): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\wamp64\www\farmasic\core\Tools.php] [LINE 220]
+[2023-02-11 08:02:28] [E_WARNING: scandir(C:\wamp64\www\newApp/js): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\wamp64\www\farmasic\core\Tools.php] [LINE 220]
+[2023-02-11 09:02:28] [E_NOTICE: Undefined variable: uri] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 5]
+[2023-02-11 09:02:30] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 5]
+[2023-02-11 09:02:04] [E_WARNING: end() expects parameter 1 to be array, string given] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 6]
+[2023-02-11 09:02:42] [E_NOTICE: Only variables should be passed by reference] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 5]
+[2023-02-11 09:02:20] [E_NOTICE: Only variables should be passed by reference] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 5]
+[2023-02-11 09:02:17] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 6]
+[2023-02-11 09:02:41] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 6]
+[2023-02-11 09:02:49] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 6]
+[2023-02-11 09:02:44] [E_NOTICE: Only variables should be passed by reference] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 6]
+[2023-02-11 09:02:22] [E_ERROR: Uncaught Error: Function name must be a string in C:\wamp64\www\drovazca\app\index.php:13
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 13]
+[2023-02-11 09:02:42] [E_ERROR: Uncaught Error: Function name must be a string in C:\wamp64\www\drovazca\app\index.php:13
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 13]
+[2023-02-11 09:02:55] [E_ERROR: Uncaught Error: Function name must be a string in C:\wamp64\www\drovazca\app\index.php:13
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 13]
+[2023-02-11 09:02:56] [E_ERROR: Uncaught Error: Function name must be a string in C:\wamp64\www\drovazca\app\index.php:13
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 13]
+[2023-02-11 09:02:09] [E_NOTICE: Undefined variable: protocolo] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 18]
+[2023-02-11 10:02:07] [E_NOTICE: Undefined variable: doc_root] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 5]
+[2023-02-11 11:02:53] [E_NOTICE: Undefined variable: protocol] [IN FILE C:\wamp64\www\drovazca\app\index.php] [LINE 4]
+[2023-02-11 11:02:37] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\vendor\farmasic\core\core\Controller.php] [LINE 13]
+[2023-02-11 11:02:39] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\vendor\farmasic\core\core\Controller.php] [LINE 13]
+[2023-02-11 11:02:13] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\vendor\farmasic\core\core\Controller.php] [LINE 13]
+[2023-02-11 11:02:13] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\vendor\farmasic\core\core\Controller.php] [LINE 13]
+[2023-02-11 11:02:14] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\vendor\farmasic\core\core\Controller.php] [LINE 13]
+[2023-02-11 11:02:19] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\vendor\farmasic\core\core\Controller.php] [LINE 13]
+[2023-02-11 11:02:20] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\vendor\farmasic\core\core\Controller.php] [LINE 13]
+[2023-02-11 11:02:40] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\vendor\farmasic\core\core\Controller.php] [LINE 13]
+[2023-02-11 11:02:08] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminWarehouseController.php] [LINE 8]
+[2023-02-11 11:02:18] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminWarehouseController.php] [LINE 127]
+[2023-02-11 11:02:30] [E_WARNING: Use of undefined constant ADMIN_PATH - assumed 'ADMIN_PATH' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminWarehouseController.php] [LINE 127]
+[2023-02-11 08:02:20] [E_WARNING: Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Request.php] [LINE 28]
+[2023-02-11 08:02:52] [E_WARNING: Use of undefined constant DEFAULT_CONTROLLER - assumed 'DEFAULT_CONTROLLER' (this will throw an Error in a future version of PHP)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Request.php] [LINE 28]
+[2023-02-13 08:02:07] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminShoppingController' does not have a method 'comparator'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 109]
+[2023-02-14 12:02:25] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 74]
+[2023-02-14 12:02:56] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 75]
+[2023-02-14 12:02:44] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 75]
+[2023-02-14 12:02:05] [E_WARNING: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php:111)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 69]
+[2023-02-14 01:02:15] [E_NOTICE: Undefined offset: 0] [IN FILE C:\wamp64\www\drovazca\app\var\cache\0ab1d082312f70876c8f46d159171e21885939d4_0.file.comparator.tpl.php] [LINE 45]
+[2023-02-14 01:02:08] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminBulkController' does not have a method 'export'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 109]
+[2023-02-14 01:02:06] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'roles'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 109]
+[2023-02-14 01:02:37] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'roles'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 109]
+[2023-02-14 01:02:52] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'notify'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 109]
+[2023-02-14 04:02:38] [E_WARNING: file_put_contents(C:\wamp64\www\drovazca\appsrc/dash.json): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 13]
+[2023-02-14 04:02:31] [E_NOTICE: Undefined variable: arr] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-14 04:02:56] [E_NOTICE: Undefined variable: arr] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-14 04:02:57] [E_NOTICE: Undefined variable: arr] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-14 04:02:58] [E_NOTICE: Undefined variable: arr] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-14 04:02:58] [E_NOTICE: Undefined variable: arr] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-14 04:02:58] [E_NOTICE: Undefined variable: arr] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-14 04:02:59] [E_NOTICE: Undefined variable: arr] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-14 04:02:59] [E_NOTICE: Undefined variable: arr] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-14 04:02:59] [E_NOTICE: Undefined variable: arr] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-14 04:02:41] [E_WARNING: file_put_contents(C:\wamp64\www\drovazca\appsrc/dash.json): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 13]
+[2023-02-14 04:02:10] [E_WARNING: file_put_contents(C:\wamp64\www\drovazca\appsrc/dash.json): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 13]
+[2023-02-14 04:02:10] [E_WARNING: file_put_contents(C:\wamp64\www\drovazca\appsrc/dash.json): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 13]
+[2023-02-14 10:02:20] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 18]
+[2023-02-14 11:02:06] [E_WARNING: file_put_contents(C:\wamp64\www\drovazca\app/fs-admin/src/dash.json): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 21]
+[2023-02-14 11:02:02] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminDashboardController' does not have a method 'dash'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-14 11:02:22] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminDashboardController' does not have a method 'dash'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-14 11:02:14] [E_WARNING: json_decode() expects parameter 1 to be string, array given] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 74]
+[2023-02-15 12:02:07] [E_NOTICE: Undefined variable: output] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 31]
+[2023-02-15 12:02:51] [E_NOTICE: Undefined index: date] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 18]
+[2023-02-15 12:02:14] [E_NOTICE: Undefined index: date] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 18]
+[2023-02-15 01:02:22] [E_NOTICE: Undefined index: date] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminDashboardController.php] [LINE 15]
+[2023-02-15 01:02:21] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminCustomersController' does not have a method 'request'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-15 01:02:05] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'roles'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-15 01:02:48] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'roles'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-15 02:02:32] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'define'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-15 02:02:11] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'define'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-15 02:02:54] [E_NOTICE: Undefined index: sender] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\DataGrid.php] [LINE 114]
+[2023-02-15 02:02:16] [E_NOTICE: Undefined index: sender] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\DataGrid.php] [LINE 114]
+[2023-02-15 03:02:17] [E_NOTICE: Undefined index: created_at] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\DataGrid.php] [LINE 114]
+[2023-02-15 03:02:24] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'notify'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-15 03:02:18] [E_NOTICE: Undefined index: label] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\HelperForm.php] [LINE 194]
+[2023-02-15 03:02:48] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:01] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:02] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:02] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:03] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:04] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:04] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:17] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:18] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:18] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:18] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:25] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:27] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:39] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:53] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:53] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:54] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:55] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:55] [E_WARNING: scandir(C:\wamp64\www\drovazca\app\fs-admin/themes//assets/js): El sistema no puede encontrar la ruta especificada. (code: 3)] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Tools.php] [LINE 229]
+[2023-02-15 03:02:13] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Configuration.php] [LINE 16]
+[2023-02-15 03:02:56] [E_NOTICE: Undefined index: firstname] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminParametersController.php] [LINE 431]
+[2023-02-15 03:02:15] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 78]
+[2023-02-15 03:02:31] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 78]
+[2023-02-15 03:02:41] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 78]
+[2023-02-15 03:02:47] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 78]
+[2023-02-15 03:02:49] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 78]
+[2023-02-15 03:02:57] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 78]
+[2023-02-15 03:02:06] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 78]
+[2023-02-15 07:02:33] [E_NOTICE: Undefined index: firstname] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminParametersController.php] [LINE 431]
+[2023-02-15 09:02:52] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'define'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-15 09:02:28] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\CSVImport.php] [LINE 78]
+[2023-02-15 11:02:10] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 58]
+[2023-02-15 11:02:52] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 58]
+[2023-02-15 11:02:06] [E_NOTICE: Undefined index: parent_id] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 60]
+[2023-02-15 11:02:39] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 63]
+[2023-02-15 11:02:54] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 63]
+[2023-02-15 11:02:08] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 62]
+[2023-02-15 11:02:19] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 62]
+[2023-02-15 11:02:19] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 62]
+[2023-02-15 11:02:20] [E_NOTICE: Array to string conversion] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 62]
+[2023-02-15 12:02:41] [E_NOTICE: Undefined index: ] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Parameters.php] [LINE 76]
+[2023-02-15 01:02:58] [E_PARSE: syntax error, unexpected ')', expecting ']'] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminParametersController.php] [LINE 375]
+[2023-02-15 01:02:32] [E_NOTICE: Undefined index: firstname] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminParametersController.php] [LINE 433]
+[2023-02-15 01:02:50] [E_NOTICE: Undefined index: firstname] [IN FILE C:\wamp64\www\drovazca\app\controllers\admin\AdminParametersController.php] [LINE 433]
+[2023-02-15 01:02:08] [E_NOTICE: Undefined index: permissionsGrid] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8754a69a465ca93b26b73aee85be663e657546e9_0.file.form.tpl.php] [LINE 26]
+[2023-02-15 01:02:39] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'define'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-15 02:02:34] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminParametersController' does not have a method 'define'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-16 12:02:24] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminBankController' does not have a method 'payment_methods'] [IN FILE C:\wamp64\www\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-16 01:02:13] [E_NOTICE: Undefined index: op_departament] [IN FILE C:\wamp64\www\drovazca\app\var\cache\efcac85e1b4a643cf27bf9d486eb349e9c51bf6d_0.file.view.tpl.php] [LINE 42]
+[2023-02-16 09:02:02] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8f0f621cdf2e0699fa326feae77b87cc97a71578_0.file.preview.tpl.php] [LINE 26]
+[2023-02-16 09:02:52] [E_NOTICE: Undefined index: num_row] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8f0f621cdf2e0699fa326feae77b87cc97a71578_0.file.preview.tpl.php] [LINE 89]
+[2023-02-16 09:02:03] [E_NOTICE: Undefined index: code] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8f0f621cdf2e0699fa326feae77b87cc97a71578_0.file.preview.tpl.php] [LINE 93]
+[2023-02-16 10:02:13] [E_NOTICE: Undefined index: price] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8f0f621cdf2e0699fa326feae77b87cc97a71578_0.file.preview.tpl.php] [LINE 98]
+[2023-02-16 10:02:36] [E_NOTICE: Undefined index: price] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8f0f621cdf2e0699fa326feae77b87cc97a71578_0.file.preview.tpl.php] [LINE 98]
+[2023-02-16 10:02:35] [E_NOTICE: Undefined index: rate] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8f0f621cdf2e0699fa326feae77b87cc97a71578_0.file.preview.tpl.php] [LINE 103]
+[2023-02-16 10:02:20] [E_NOTICE: Undefined index: percentage] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8f0f621cdf2e0699fa326feae77b87cc97a71578_0.file.preview.tpl.php] [LINE 105]
+[2023-02-16 10:02:41] [E_NOTICE: Undefined index: net_amount] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8f0f621cdf2e0699fa326feae77b87cc97a71578_0.file.preview.tpl.php] [LINE 108]
+[2023-02-16 10:02:41] [E_NOTICE: Undefined index: net_amount] [IN FILE C:\wamp64\www\drovazca\app\var\cache\8f0f621cdf2e0699fa326feae77b87cc97a71578_0.file.preview.tpl.php] [LINE 108]
+[2023-02-16 11:02:32] [E_NOTICE: Undefined index: name] [IN FILE C:\wamp64\www\drovazca\farmasic\classes\Customers.php] [LINE 94]
+[2023-02-19 02:02:38] [E_DEPRECATED: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\core\Request.php] [LINE 21]
+[2023-02-19 02:02:51] [E_DEPRECATED: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\Request.php] [LINE 21]
+[2023-02-19 02:02:03] [E_DEPRECATED: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\Request.php] [LINE 21]
+[2023-02-19 02:02:35] [E_DEPRECATED: mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\Request.php] [LINE 21]
+[2023-02-19 03:02:31] [E_DEPRECATED: mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\Request.php] [LINE 21]
+[2023-02-19 03:02:32] [E_DEPRECATED: mb_strtolower(): Passing null to parameter #1 ($string) of type string is deprecated] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\Request.php] [LINE 21]
+[2023-02-21 12:02:00] [E_NOTICE: Undefined index: expire_date] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\DataGrid.php] [LINE 114]
+[2023-02-21 02:02:02] [E_WARNING: A non-numeric value encountered] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Cart.php] [LINE 139]
+[2023-02-21 02:02:07] [E_WARNING: A non-numeric value encountered] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Cart.php] [LINE 139]
+[2023-02-21 02:02:09] [E_WARNING: A non-numeric value encountered] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Cart.php] [LINE 139]
+[2023-02-21 02:02:19] [E_WARNING: A non-numeric value encountered] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Cart.php] [LINE 139]
+[2023-02-21 02:02:59] [E_NOTICE: Undefined index: count] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 169]
+[2023-02-21 04:02:37] [E_NOTICE: A non well formed numeric value encountered] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Payments.php] [LINE 36]
+[2023-02-21 04:02:24] [E_NOTICE: Undefined variable: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Payments.php] [LINE 38]
+[2023-02-21 04:02:29] [E_NOTICE: Undefined variable: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Payments.php] [LINE 38]
+[2023-02-21 04:02:29] [E_NOTICE: Undefined variable: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Payments.php] [LINE 38]
+[2023-02-21 04:02:30] [E_NOTICE: Undefined variable: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Payments.php] [LINE 38]
+[2023-02-21 04:02:30] [E_NOTICE: Undefined variable: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\Payments.php] [LINE 38]
+[2023-02-21 05:02:32] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\DataGrid.php] [LINE 110]
+[2023-02-21 05:02:05] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 05:02:07] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 05:02:52] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 05:02:53] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 05:02:12] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 05:02:14] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 05:02:14] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 05:02:39] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 190]
+[2023-02-21 05:02:41] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 190]
+[2023-02-21 05:02:35] [E_WARNING: A non-numeric value encountered] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 05:02:10] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 05:02:11] [E_NOTICE: Undefined index: col] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\farmasic\core\classes\HelperForm.php] [LINE 189]
+[2023-02-21 06:02:04] [E_NOTICE: Array to string conversion] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 172]
+[2023-02-21 06:02:05] [E_NOTICE: Array to string conversion] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 172]
+[2023-02-21 06:02:48] [E_NOTICE: Array to string conversion] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 172]
+[2023-02-21 06:02:54] [E_NOTICE: Array to string conversion] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 172]
+[2023-02-21 07:02:21] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'DocumentsController' does not have a method 'undefined'] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-21 07:02:33] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'DocumentsController' does not have a method 'undefined'] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-21 07:02:43] [E_NOTICE: Undefined index: expire_date] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\DataGrid.php] [LINE 114]
+[2023-02-21 07:02:39] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'CatalogController' does not have a method 'cart'] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\Dispatcher.php] [LINE 112]
+[2023-02-21 07:02:41] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\DataGrid.php] [LINE 110]
+[2023-02-21 07:02:33] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\824c937c8c65eef0a44ff76e7e9c56c7f95b4a3f_0.file.order.tpl.php] [LINE 160]
+[2023-02-21 07:02:29] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\824c937c8c65eef0a44ff76e7e9c56c7f95b4a3f_0.file.order.tpl.php] [LINE 160]
+[2023-02-21 07:02:39] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\824c937c8c65eef0a44ff76e7e9c56c7f95b4a3f_0.file.order.tpl.php] [LINE 160]
+[2023-02-21 07:02:19] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\824c937c8c65eef0a44ff76e7e9c56c7f95b4a3f_0.file.order.tpl.php] [LINE 160]
+[2023-02-21 08:02:13] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\824c937c8c65eef0a44ff76e7e9c56c7f95b4a3f_0.file.order.tpl.php] [LINE 160]
+[2023-02-21 08:02:15] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\824c937c8c65eef0a44ff76e7e9c56c7f95b4a3f_0.file.order.tpl.php] [LINE 160]
+[2023-02-21 08:02:21] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\824c937c8c65eef0a44ff76e7e9c56c7f95b4a3f_0.file.order.tpl.php] [LINE 160]
+[2023-02-21 08:02:36] [E_NOTICE: Undefined index: amount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\824c937c8c65eef0a44ff76e7e9c56c7f95b4a3f_0.file.order.tpl.php] [LINE 160]
+[2023-02-22 02:02:22] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 177]
+[2023-02-22 02:02:49] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 177]
+[2023-02-22 02:02:57] [E_NOTICE: Undefined index: total] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 177]
+[2023-02-23 08:02:08] [E_NOTICE: Undefined index: tax_percentage] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\Orders.php] [LINE 167]
+[2023-02-23 08:02:14] [E_NOTICE: Undefined index: tax_percentage] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\Orders.php] [LINE 167]
+[2023-02-23 08:02:25] [E_NOTICE: Undefined index: tax_percentage] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\Orders.php] [LINE 167]
+[2023-02-24 02:02:01] [E_NOTICE: Undefined index: tax_percentage] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\Orders.php] [LINE 167]
+[2023-02-24 03:02:57] [E_NOTICE: Undefined index: tax_rate] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\49792a3b94233aa9e56cdca43d03541ac36e753a_0.file.preview.tpl.php] [LINE 105]
+[2023-02-24 03:02:02] [E_NOTICE: Undefined index: discount_amount] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\Orders.php] [LINE 175]
+[2023-02-24 04:02:57] [E_NOTICE: Undefined index: net_price] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\Orders.php] [LINE 168]
+[2023-02-24 04:02:06] [E_NOTICE: Undefined index: net_price] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\Orders.php] [LINE 168]
+[2023-02-24 04:02:50] [E_NOTICE: Undefined index: net_price] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\Orders.php] [LINE 168]
+[2023-02-24 04:02:52] [E_NOTICE: Undefined index: total] [IN FILE C:\xampp\htdocs\drovazca\farmasic\classes\Orders.php] [LINE 168]
+[2023-02-24 04:02:21] [E_NOTICE: Undefined index: name] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\49792a3b94233aa9e56cdca43d03541ac36e753a_0.file.preview.tpl.php] [LINE 93]
+[2023-02-24 04:02:31] [E_NOTICE: Undefined index: name] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\49792a3b94233aa9e56cdca43d03541ac36e753a_0.file.preview.tpl.php] [LINE 93]
+[2023-02-24 04:02:45] [E_NOTICE: Undefined index: amount] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\49792a3b94233aa9e56cdca43d03541ac36e753a_0.file.preview.tpl.php] [LINE 112]
+[2023-02-24 05:02:21] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\49792a3b94233aa9e56cdca43d03541ac36e753a_0.file.preview.tpl.php] [LINE 26]
+[2023-02-24 05:02:53] [E_NOTICE: Undefined index: price] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\681b0c2ed035472f193221dedce80681eb97c2a6_0.file.featured.tpl.php] [LINE 55]
+[2023-02-24 05:02:48] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\49792a3b94233aa9e56cdca43d03541ac36e753a_0.file.preview.tpl.php] [LINE 26]
+[2023-02-24 05:02:51] [E_NOTICE: Undefined index: amount] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\824c937c8c65eef0a44ff76e7e9c56c7f95b4a3f_0.file.order.tpl.php] [LINE 254]
+[2023-02-24 05:02:24] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\49792a3b94233aa9e56cdca43d03541ac36e753a_0.file.preview.tpl.php] [LINE 26]
+[2023-02-24 05:02:10] [E_NOTICE: Undefined index: dicount] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 188]
+[2023-02-24 05:02:19] [E_NOTICE: Undefined index: dicount_usd] [IN FILE C:\xampp\htdocs\drovazca\app\var\cache\f537dbc824994d61472d43423ed0a00791c9df43_0.file.index.tpl.php] [LINE 190]
+[2023-02-24 06:02:46] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\xampp\htdocs\drovazca\app\controllers\admin\AdminOrdersController.php] [LINE 54]

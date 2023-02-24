@@ -1,0 +1,4 @@
+[2023-02-11 08:02:06] [E_WARNING: require_once(C:\wamp64\www\newApp\fs-admin/config/parameters.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\farmasic\config\bootstrings.php] [LINE 5]
+[2023-02-11 08:02:33] [E_WARNING: require_once(C:\wamp64\www\newApp\fs-admin/config/parameters.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\farmasic\config\bootstrings.php] [LINE 5]
+[2023-02-11 08:02:50] [E_WARNING: require_once(C:\wamp64\www\newApp\fs-admin/config/parameters.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\farmasic\config\bootstrings.php] [LINE 5]
+[2023-02-11 08:02:54] [E_WARNING: require_once(C:\wamp64\www\newApp\fs-admin/config/parameters.php): failed to open stream: No such file or directory] [IN FILE C:\wamp64\www\farmasic\config\bootstrings.php] [LINE 5]

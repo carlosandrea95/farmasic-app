@@ -1,0 +1,42 @@
+.card-body.login-card-body {
+  border-radius: 30px;
+  border: 1px solid #e5e5e5;
+}
+body.login-page {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.7) 0%,
+      rgba(47, 53, 82, 0.7) 45%,
+      rgba(35, 37, 104, 0.7) 100%
+    ),
+    url(../img/login.bg.jpg);
+}
+.login-logo a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.login-logo a b {
+  color: #fff;
+  font-size: 2.5em !important;
+  font-weight: 900;
+}
+.btn-primary {
+  background-color: #22a7f0 !important;
+  border-color: #22a7f0 !important;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
+.btn {
+  border-radius: 10px !important;
+}
+.form-control {
+  border-radius: 10px !important;
+}
