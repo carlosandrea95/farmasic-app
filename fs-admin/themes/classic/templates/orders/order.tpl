@@ -26,19 +26,21 @@
    </div>
    <div class="col-2">
       <button class="btn btn-default btn-block printBtn" type="button"
-         onclick="_printInvoice({Tools::getValue('id')},'F')" {if Orders::getInvoiceType()=='F'}{else}disabled{/if}>
+         onclick="_printInvoice({Tools::getValue('id')},'F')"
+         {if Orders::getInvoiceType()=='F'}{elseif Orders::getInvoiceType()=='NULO' && $validToPrint}{else}disabled{/if}>
          <span class="fas fa-print mr-1"></span>IMPRIMIR FACTURA
       </button>
    </div>
    <div class="col-3">
       <button class="btn btn-default btn-block printBtn" type="button"
-         onclick="_printInvoice({Tools::getValue('id')},'N')" {if Orders::getInvoiceType()=='N'}{else}disabled{/if}>
+         onclick="_printInvoice({Tools::getValue('id')},'N')"
+         {if Orders::getInvoiceType()=='N'}{elseif Orders::getInvoiceType()=='NULO' && $validToPrint}{else}disabled{/if}>
          <span class="fas fa-sticky-note mr-1"></span>IMPRIMIR NOTA DE ENTREGA
       </button>
    </div>
    <div class="col-3">
       <button class="btn btn-default printBtn" type="button" onclick="_printDelivery({Tools::getValue('id')})"
-         {if !Orders::getInvoiceType()}disabled{/if}>
+         {if !$validToPrint}disabled{/if}>
          <span class="fas fa-truck mr-1"></span>IMPRIMIR ORDEN DE ENTREGA
       </button>
    </div>
@@ -87,8 +89,8 @@
                         class="text-success">{Tools::moneyFormat($data['amount_usd'],'USD',true)}</span></h4>
                </div>
                <div class="text-right col-4">
-                  <h4>TOTAL PAGO: {Tools::moneyFormat($data['amount'],'BS',true)} <br> <span
-                        class="text-success">{Tools::moneyFormat($data['amount_usd'],'USD',true)}</span></h4>
+                  <h4>TOTAL PAGO: {Tools::moneyFormat($totals['amount'],'BS',true)} <br> <span
+                        class="text-success">{Tools::moneyFormat($totals['amount_usd'],'USD',true)}</span></h4>
                </div>
             </div>
          </div>

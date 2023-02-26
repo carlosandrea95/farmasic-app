@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-02-24 06:09:16
+/* Smarty version 4.3.0, created on 2023-02-26 05:21:32
   from 'C:\xampp\htdocs\drovazca\app\fs-admin\themes\classic\templates\dashboard.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63f88cccbd5227_70731764',
+  'unifunc' => 'content_63fb249c2faf29_55455896',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63f88cccbd5227_70731764 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63fb249c2faf29_55455896 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 
 <html lang="en">

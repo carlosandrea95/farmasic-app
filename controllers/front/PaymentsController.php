@@ -47,7 +47,8 @@ class PaymentsController extends Controller
       foreach (Orders::getOrdersOpenByCustomers() as $order) {
          $line['value'] = $order['id_order'];
          $line['label'] = 'PEDIDO #' . $order['id_order'] . ' - ' . Tools::moneyFormat($order['amount'], 'BS', true, true) . ' ' . Tools::moneyFormat($order['amount_usd'], 'USD', true, true);
-         $orders[] = $line;
+         if ($order['amount'] > 0 && $order['amount_usd'] > 0)
+            $orders[] = $line;
       }
       $banks = [];
       foreach (Payments::getBanks() as $bank) {

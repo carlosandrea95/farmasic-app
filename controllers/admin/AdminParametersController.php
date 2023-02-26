@@ -239,6 +239,7 @@ class AdminParametersController extends Controller
                'type' => 'text',
                'label' => 'CORREO ELECTRÓNICO',
                'name' => 'email',
+               'required' => true
             ],
             [
                'type' => 'select',
@@ -259,7 +260,7 @@ class AdminParametersController extends Controller
                'required' => true,
             ],
             [
-               'type' => 'text',
+               'type' => 'password',
                'label' => 'CONTRASEÑA',
                'name' => 'password',
                'required' => true,
@@ -282,12 +283,6 @@ class AdminParametersController extends Controller
                'label' => 'PAÍS',
                'name' => 'op_country',
                'options' => Tools::genOptions(Options::getAll(4)),
-            ],
-            [
-               'type' => 'email',
-               'label' => 'CORREO',
-               'name' => 'email',
-               'required' => true,
             ],
             [
                'type' => 'text',
@@ -333,7 +328,6 @@ class AdminParametersController extends Controller
          } else {
             // Catalog::saveDiscount();
          }
-         $this->ajaxRedirect('AdminParameters&action=users');
       } else {
          $this->render('_partials/form', ['form' => $helper->generateForm($form_fields)]);
       }

@@ -81,7 +81,7 @@ class AdminOrdersController extends Controller
             $this->ajaxRedirect('AdminOrders&action=printInvoice&id=' . Tools::getValue('id'));
          }
       } else {
-         $this->render('orders/order', ['data' => $data, 'status' => $status, 'validToPrint' => Orders::validPaymentsInOrder(), 'statusColor' => $statusColor, 'client' => $client, 'methods' => Payments::getMethods(true), 'payments' => !empty($payments) ? $payments : [], 'products' => Catalog::getProducts(), 'items' => $items]);
+         $this->render('orders/order', ['data' => $data, 'status' => $status, 'validToPrint' => Orders::validPaymentsInOrder(), 'statusColor' => $statusColor, 'client' => $client, 'methods' => Payments::getMethods(true), 'totals' => Payments::getTotalPaymentPerOrder(), 'payments' => !empty($payments) ? $payments : [], 'products' => Catalog::getProducts(), 'items' => $items]);
       }
    }
    public function printInvoice()

@@ -155,27 +155,34 @@ class PDF_Invoices extends PDF
   function Footer()
   {
     $InvoiceInfo = Orders::getPDFInvoiceInfo(Tools::getValue('id'));
+    $taxes = Orders::getPDFInvoiceTaxes(Tools::getValue('id'));
     $this->pdf->SetX(140);
     $this->pdf->SetFont('Arial', '', 9);
-    $this->pdf->Cell(30, 5, 'SUBTOTAL', 0, 0, 'R');
+    $this->pdf->Cell(30, 5, 'Subtotal', 0, 0, 'R');
     $this->pdf->SetX(170);
     $this->pdf->SetFont('Arial', 'B', 8);
-    $this->pdf->Cell(30, 5, 'Bs. ' . number_format($InvoiceInfo['amount'], 2, ',', '.'), 1, 0, 'R');
+    $this->pdf->Cell(30, 5, 'Bs. ' . number_format($taxes['subtotal'], 2, ',', '.'), 1, 0, 'R');
     $this->pdf->Ln();
     $this->pdf->SetX(140);
     $this->pdf->SetFont('Arial', '', 9);
-    $this->pdf->Cell(30, 5, utf8_decode('I.V.A (16%)'), 0, 0, 'R');
+    $this->pdf->Cell(30, 5, utf8_decode('Descuento'), 0, 0, 'R');
     $this->pdf->SetX(170);
     $this->pdf->SetFont('Arial', 'B', 8);
-    $feed = ($InvoiceInfo['amount'] * 0.16);
-    $this->pdf->Cell(30, 5, 'Bs. ' . number_format($feed, 2, ',', '.'), 1, 0, 'R');
+    $this->pdf->Cell(30, 5, 'Bs. ' . number_format($taxes['discounts'], 2, ',', '.'), 1, 0, 'R');
+    $this->pdf->Ln();
+    $this->pdf->SetX(140);
+    $this->pdf->SetFont('Arial', '', 9);
+    $this->pdf->Cell(30, 5, utf8_decode('Impuesto'), 0, 0, 'R');
+    $this->pdf->SetX(170);
+    $this->pdf->SetFont('Arial', 'B', 8);
+    $this->pdf->Cell(30, 5, 'Bs. ' . number_format($taxes['feed'], 2, ',', '.'), 1, 0, 'R');
     $this->pdf->Ln();
     $this->pdf->SetX(140);
     $this->pdf->SetFont('Arial', 'B', 12);
     $this->pdf->Cell(30, 5, 'TOTAL', 0, 0, 'R');
     $this->pdf->SetX(170);
     $this->pdf->SetFont('Arial', 'B', 8);
-    $this->pdf->Cell(30, 5, 'Bs. ' . number_format(($feed + $InvoiceInfo['amount']), 2, ',', '.'), 1, 0, 'R');
+    $this->pdf->Cell(30, 5, 'Bs. ' . number_format(($InvoiceInfo['amount']), 2, ',', '.'), 1, 0, 'R');
     $this->pdf->Ln();
   }
   public function print()

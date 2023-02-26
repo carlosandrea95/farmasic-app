@@ -39,3 +39,10 @@
 [2023-02-24 05:02:15][CREATE: IN TABLE_NAME fs_fs_cart_lines][RECORD_ID 2][BY ] creado un nuevo carrito #2
 [2023-02-24 05:02:00][INSERT: IN TABLE_NAME fs_fs_accounting_journal_entries][RECORD_ID ][BY ] Nuevo Asiento Contable Creado
 [2023-02-24 05:02:18][CREATE: IN TABLE_NAME fs_fs_cart_lines][RECORD_ID 3][BY ] creado un nuevo carrito tipo psicotrópicos #3
+[2023-02-25 01:02:22][INSERT: IN TABLE_NAME fs_fs_accounting_journal_entries][RECORD_ID ][BY ] Nuevo Asiento Contable Creado
+[2023-02-25 10:02:51][CREATE: IN TABLE_NAME fs_fs_cart_lines][RECORD_ID 4][BY ] creado un nuevo carrito #4
+[2023-02-25 11:02:49][INSERT: IN TABLE_NAME fs_fs_accounting_journal_entries][RECORD_ID ][BY ] Nuevo Asiento Contable Creado
+[2023-02-25 11:02:03][CREATE: IN TABLE_NAME fs_fs_cart_lines][RECORD_ID 5][BY ] creado un nuevo carrito #5
+[2023-02-25 11:02:33][INSERT: IN TABLE_NAME fs_fs_accounting_journal_entries][RECORD_ID ][BY ] Nuevo Asiento Contable Creado
+[2023-02-25 11:02:23][CREATE: IN TABLE_NAME fs_fs_cart_lines][RECORD_ID 6][BY ] creado un nuevo carrito tipo psicotrópicos #6
+[2023-02-25 11:02:25][INSERT: IN TABLE_NAME fs_fs_accounting_journal_entries][RECORD_ID ][BY ] Nuevo Asiento Contable Creado

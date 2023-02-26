@@ -28,7 +28,34 @@
           value="{$paymentData['num_account']}" disabled>
       </div>
       <div class="col-4 form-group"><label>MONTO</label><input type="text" class="form-control"
-          value="{$paymentData['amount']}" disabled></div>
+          value="{Tools::moneyFormat($paymentData['amount'],'BS')}" disabled>
+      </div>
+      <div class="col-4 form-group"><label>MONTO USD</label>
+        <input type="text" class="form-control" value="{Tools::moneyFormat($paymentData['amount_usd'],'USD')}" disabled>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card card-navy card-outline">
+  <div class="card-header">
+    <h3 class="card-title"><span class="fas fa-file mr-1"></span>Documentos</h3>
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-6">
+        <h5 class="text-bold text-center">Comprobate de pago</h5>
+        <a target="_black" href="{IMG_URI}cp/{$paymentData['folder']}/{$paymentData['img_support']}">
+          <img class="figure-img img-thumbnail" src="{IMG_URI}cp/{$paymentData['folder']}/{$paymentData['img_support']}"
+            alt="">
+        </a>
+      </div>
+      <div class="col-6">
+        <h5 class="text-bold text-center">Formato Psicotrópicos</h5>
+        <a target="_black" href="{IMG_URI}cp/{$paymentData['folder']}/{$paymentData['img_psycho']}">
+          <img class="figure-img img-thumbnail" src="{IMG_URI}cp/{$paymentData['folder']}/{$paymentData['img_psycho']}"
+            alt="">
+        </a>
+      </div>
     </div>
   </div>
 </div>

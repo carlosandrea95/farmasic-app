@@ -15,7 +15,7 @@
                </div>
                <div class="d-flex align-items-center mr-1">
                   <div class="custom-control custom-switch custom-switch-lg">
-                     <input name="is_active" onclick="changeStatusAJAX(this,{Tools::getValue('id')})"
+                     <input name="is_active" onchange="changeStatusWithAJAX(this,{Tools::getValue('id')})"
                         {if isset($data['is_active']) && $data['is_active']=='1'} checked='' {/if}" type="checkbox"
                         class="custom-control-input" id="customSwitch8">
                      <label class="custom-control-label" for="customSwitch8"></label>
@@ -26,10 +26,10 @@
          <div class="col-2 d-flex justify-content-end">
             <a type="button" onclick="history.back()" class="btn btn-default mr-2"><span class="fas fa-times"></span>
                Cancelar</a>
-            <button type="submit" class="btn btn-primary"><span class="fas fa-save"></span>
-               Guardar</button>
-            {* <button type="submit" onclick="saveProduct()" class="btn btn-primary"><span class="fas fa-save"></span>
+            {* <button type="button" onclick="saveProduct()" class="btn btn-primary"><span class="fas fa-save"></span>
                Guardar</button> *}
+            <button type="submit" onclick="saveProduct()" class="btn btn-primary"><span class="fas fa-save"></span>
+               Guardar</button>
          </div>
       </div>
       <div class="card card-primary card-outline card-outline-tabs">
@@ -71,17 +71,14 @@
                               src="{IMG_URI}{if isset($data['img_name'])}p/{$data['img_name']}{else}empty.png{/if}"
                               class="figure-img img-thumbnail img img-fluid">
                         </div>
-
                         <div class="row">
                            <input id="ProductInputIMG" type="file" class="form-control-file form-control-sm p-0 mt-3"
                               name="img" placeholder="" accept="images/*">
                         </div>
                         <div class="row mt-1">
-
                            <button type="button" id="removeIMGButton" onclick="removeProductIMG()"
                               class="btn btn-sm btn-danger mr-1" {if !empty($data['img_name'])}style="diplay:block"
                               {else}style="display:none" {/if}><span class="fas fa-trash"></span></button>
-
                            <button type="submit" onclick="uploadProductIMG()" class="btn btn-sm btn-primary">Cargar
                               Imagen</button>
                         </div>
@@ -92,7 +89,6 @@
                               <label for="id">ID</label>
                               <input type="text" id="id" class="form-control form-control-sm" name="id"
                                  value="{Tools::getValue('id')}" readonly>
-
                            </div>
                            <div class="form-group col-3">
                               <label for="code">CÓDIGO</label>
@@ -141,7 +137,6 @@
                                  <option value="0">No</option>
                                  <option value="1">Si</option>
                                  {/if}
-
                               </select>
                            </div>
                         </div>
@@ -195,9 +190,7 @@
                      </div>
                   </div>
                   <div class="row">
-
                   </div>
-
                </div>
                <div class="tab-pane fade" id="custom-tabs-four-profile" role="tabpanel"
                   aria-labelledby="custom-tabs-four-profile-tab">
@@ -256,70 +249,41 @@
                   </div>
                   <div class="row">
                      <div class="col-3 form-group"><label class="mb-1" for="">PRECIO DIVISA</label><input
-                           name="price_usd" type="text" class="form-control form-control-sm mt-0 money-usd" value="
-
-                                       {if isset($data['price_usd'])}{$data['price_usd']}
-
-                                       {/if}">
+                           name="price_usd" type="text" class="form-control form-control-sm mt-0 money-usd" value="{if isset($data['price_usd'])}{$data['price_usd']}
+                                      {/if}">
                      </div>
                      <div class="col-3 form-group"><label class="mb-1" for="">PRECIO</label><input readonly name="price"
-                           type="text" class="form-control form-control-sm mt-0 money-bs" value="
-
-                                       {if isset($data['price'])}
-
-                                          {str_replace('.',',',$data['price'])}
-
-                                       {/if}">
+                           type="text" class="form-control form-control-sm mt-0 money-bs"
+                           value="{if isset($data['price'])}{str_replace('.',',',$data['price'])}{/if}">
                      </div>
                      <div class="col-3 form-group"><label class="mb-1" for="">PRECIO SUGERIDO DIVISA</label><input
                            readonly name="price_suggested_usd" type="text"
-                           class="form-control form-control-sm mt-0 money-usd" value="
-
-                                       {if isset($data['price_suggested_usd'])}{$data['price_suggested_usd']}
-
-                                       {/if}">
+                           class="form-control form-control-sm mt-0 money-usd" value="{if isset($data['price_suggested_usd'])}{$data['price_suggested_usd']}
+                                      {/if}">
                      </div>
                      <div class="col-3 form-group"><label class="mb-1" for="">PRECIO SUGERIDO</label><input readonly
-                           name="price_suggested" type="text" class="form-control form-control-sm mt-0 money-bs" value="
-
-                                       {if isset($data['price_suggested'])}
-
-                                          {str_replace('.',',',$data['price_suggested'])}
-
-                                       {/if}">
+                           name="price_suggested" type="text" class="form-control form-control-sm mt-0 money-bs" value="{if isset($data['price_suggested'])}
+                                         {str_replace('.',',',$data['price_suggested'])}
+                                      {/if}">
                      </div>
                      <div class="col-3 form-group"><label class="mb-1" for="">PRECIO NETO DIVISA</label><input readonly
-                           name="net_price_usd" type="text" class="form-control form-control-sm mt-0 money-usd" value="
-
-                                       {if isset($data['price_unit'])}{$data['net_price_usd']}
-
-                                       {/if}">
+                           name="net_price_usd" type="text" class="form-control form-control-sm mt-0 money-usd" value="{if isset($data['price_unit'])}{$data['net_price_usd']}
+                                      {/if}">
                      </div>
                      <div class="col-3 form-group"><label class="mb-1" for="">PRECIO NETO</label><input name="net_price"
-                           readonly type="text" class="form-control form-control-sm mt-0 money-bs" value="
-
-                                       {if isset($data['price_suggested'])}
-
-                                          {str_replace('.',',',$data['net_price'])}
-
-                                       {/if}">
+                           readonly type="text" class="form-control form-control-sm mt-0 money-bs" value="{if isset($data['price_suggested'])}
+                                         {str_replace('.',',',$data['net_price'])}
+                                      {/if}">
                      </div>
                      <div class="col-3 form-group"><label class="mb-1" for="">PRECIO UNITARIO DIVISA</label><input
                            readonly name="price_unit" type="text" class="form-control form-control-sm mt-0 money-usd"
-                           value="
-
-                                       {if isset($data['price_unit'])}{$data['price_unit']}
-
-                                       {/if}">
+                           value="{if isset($data['price_unit'])}{$data['price_unit']}
+                                      {/if}">
                      </div>
                      <div class="col-3 form-group"><label class="mb-1" for="">PRECIO UNITARIO</label><input readonly
-                           name="price_unit_usd" type="text" class="form-control form-control-sm mt-0 money-bs" value="
-
-                                       {if isset($data['price_unit_usd'])}
-
-                                          {str_replace('.',',',$data['price_unit_usd'])}
-
-                                       {/if}">
+                           name="price_unit_usd" type="text" class="form-control form-control-sm mt-0 money-bs" value="{if isset($data['price_unit_usd'])}
+                                         {str_replace('.',',',$data['price_unit_usd'])}
+                                      {/if}">
                      </div>
                   </div>
                   <div class="row">
@@ -327,47 +291,25 @@
                   </div>
                   <div class="row">
                      <div class="col-3 form-group"><label class="mb-1" for="">PRECIO DIVISA</label><input
-                           name="price_cost" type="text" class="form-control form-control-sm mt-0 money-usd" value="
-
-                                       {if isset($data['price_cost'])}{$data['price_cost']}
-
-                                       {/if}">
+                           name="price_cost" type="text" class="form-control form-control-sm mt-0 money-usd" value="{if isset($data['price_cost'])}{$data['price_cost']}
+                                      {/if}">
                      </div>
                      <div class="col-2 form-group"><label class="mb-1" for="">FACTOR DE BENEFICIO</label><input
-                           name="profit_margin" type="text" class="form-control form-control-sm mt-0 percentage" value="
-
-                                       {if isset($data['profit_margin'])}
-
-                                          {str_replace('.',',',$data['profit_margin'])}
-
-                                       {/if}">
+                           name="profit_margin" type="text" class="form-control form-control-sm mt-0 percentage" value="{if isset($data['profit_margin'])}
+                                         {str_replace('.',',',$data['profit_margin'])}
+                                      {/if}">
                      </div>
                      <div class="col-4 form-group">
                         <label class="mb-1" for="">DESCUANTO APLICABLE</label>
                         <select name="discount" class="form-control mt-0 select2 form-control-sm" style="width: 100%;"
                            id="discont">
-
-
-
                            {foreach from=$discounts item=$d}
                               <option value="-1"></option>
-
-
-
                               {if Isset($data['id_discount']) && $data['id_discount']==$d['id_discount']}
                                  <option value="{$d['id_discount']}" selected="selected">{$d['name']}</option>
-
-
-
                               {else}
                                  <option value="{$d['id_discount']}">{$d['name']}</option>
-
-
-
                               {/if}
-
-
-
                            {/foreach}
                         </select>
                      </div>
@@ -375,28 +317,13 @@
                         <label class="mb-1" for="">IMPUESTO</label>
                         <select name="tax" class="form-control mt-0 select2 form-control-sm" style="width: 100%;"
                            id="tax">
-
-
-
                            {foreach from=$taxes item=$t}
                               <option value="-1"></option>
-
-
-
                               {if Isset($data['id_tax']) && $data['id_tax']==$t['id_tax']}
                                  <option value="{$t['id_tax']}" selected="selected">{$t['name']}</option>
-
-
-
                               {else}
                                  <option value="{$t['id_tax']}">{$t['name']}</option>
-
-
-
                               {/if}
-
-
-
                            {/foreach}
                         </select>
                      </div>
@@ -407,27 +334,18 @@
                   <div class="row">
                      <div class="col-4 form-group"><label class="mb-1" for="">UNIDADES MINIMAS DE
                            FACTURACIÓN</label><input name="min_sell" type="text"
-                           class="form-control form-control-sm mt-0" value="
-
-                                       {if isset($data['min_sell'])}{$data['min_sell']}
-
-                                       {/if}">
+                           class="form-control form-control-sm mt-0"
+                           value="{if isset($data['min_sell'])}{$data['min_sell']}{/if}">
                      </div>
                      <div class="col-4 form-group"><label class="mb-1" for="">UNIDADES MAXIMAS DE
                            FACTURACIÓN</label><input name="max_sell" type="text"
-                           class="form-control form-control-sm mt-0" value="
-
-                                       {if isset($data['max_sell'])}{$data['max_sell']}
-
-                                       {/if}">
+                           class="form-control form-control-sm mt-0"
+                           value="{if isset($data['max_sell'])}{$data['max_sell']}{/if}">
                      </div>
                      <div class="col-4 form-group"><label class="mb-1" for="">UNIDAD MULTIPLO DE
                            FACTURACIÓN</label><input name="multiple_sell" type="text"
-                           class="form-control form-control-sm mt-0" value="
-
-                                       {if isset($data['multiple_sell'])}{$data['multiple_sell']}
-
-                                       {/if}">
+                           class="form-control form-control-sm mt-0"
+                           value="{if isset($data['multiple_sell'])}{$data['multiple_sell']}{/if}">
                      </div>
                   </div>
                </div>
@@ -452,40 +370,26 @@
                         </select>
                      </div>
                      <div class="col-3 form-group"><label for="">CODISB</label><input type="text" name="codisb"
-                           class="form-control form-control-sm" value="
-
-                                       {if isset($data['codisb'])}{$data['codisb']}
-
-                                       {/if}">
+                           class="form-control form-control-sm"
+                           value="{if isset($data['codisb'])}{$data['codisb']}{/if}">
                      </div>
                      <div class="col-2 form-group"><label for="">UNIDADES POR EMPAQUE</label><input name="per_pack"
-                           type="text" class="form-control form-control-sm" value="
-
-                                       {if isset($data['units_per_pack'])}{$data['units_per_pack']}
-
-                                       {/if}">
+                           type="text" class="form-control form-control-sm"
+                           value="{if isset($data['units_per_pack'])}{$data['units_per_pack']}{/if}">
                      </div>
                   </div>
                   <div class="row">
                      <div class="col-6 form-group"><label for="">DESCRIPCIÓN CORTA</label><input name="short_desc"
-                           type="text" class="form-control form-control-sm" value="
-
-                                       {if isset($data['short_description'])}{$data['short_description']}
-
-                                       {/if}">
+                           type="text" class="form-control form-control-sm"
+                           value="{if isset($data['short_description'])}{$data['short_description']}{/if}">
                      </div>
                      <div class="col-3 form-group"><label for="">FECHA CREACIÓN</label><input type="text" readonly
-                           name="date" class="form-control form-control-sm" value="
-
-                                       {if isset($data['created_at'])}{$data['created_at']}
-
-                                       {/if}">
+                           name="date" class="form-control form-control-sm"
+                           value="{if isset($data['created_at'])}{$data['created_at']}{/if}">
                      </div>
                      <div class="col-3 form-group"><label for="">VENCIMIENTO</label><input name="expire" type="date"
-                           class="form-control form-control-sm" value="
-
-                                       {if isset($data['expire_at'])}{$data['expire_at']}
-                                             {/if}">
+                           class="form-control form-control-sm"
+                           value="{if isset($data['expire_at'])}{$data['expire_at']}{/if}">
                      </div>
                   </div>
                </div>
@@ -508,7 +412,6 @@
                </div>
             </div>
          </div>
-
       </div>
    </form>
    <script>
