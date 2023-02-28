@@ -7,7 +7,7 @@
             "dist": {
                 "type": "path",
                 "url": "../farmasic",
-                "reference": "2c1a2a94e615dd4ca9b68876d20af4b1688b8f47"
+                "reference": "497c60619f310ffdd0b1ac8062a797e242047c99"
             },
             "require": {
                 "fpdf/fpdf": "^1.85",

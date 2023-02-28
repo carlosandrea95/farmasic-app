@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'farmasic/backend',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'ba94f9fb1e20336ca8da98342e82d0f678383b8d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'farmasic/backend' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'ba94f9fb1e20336ca8da98342e82d0f678383b8d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -22,7 +22,7 @@
         'farmasic/core' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '2c1a2a94e615dd4ca9b68876d20af4b1688b8f47',
+            'reference' => '497c60619f310ffdd0b1ac8062a797e242047c99',
             'type' => 'library',
             'install_path' => __DIR__ . '/../farmasic/core',
             'aliases' => array(),

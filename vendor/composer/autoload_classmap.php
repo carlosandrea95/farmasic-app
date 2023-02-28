@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Accounting' => $vendorDir . '/farmasic/core/classes/Accounting.php',
+    'Acl' => $vendorDir . '/farmasic/core/classes/Acl.php',
     'Audit' => $vendorDir . '/farmasic/core/classes/Audit.php',
     'Auth' => $vendorDir . '/farmasic/core/classes/Auth.php',
     'Banks' => $vendorDir . '/farmasic/core/classes/Banks.php',
@@ -30,6 +31,7 @@ return array(
     'ExchangeRates' => $vendorDir . '/farmasic/core/classes/ExchangeRates.php',
     'Hash' => $vendorDir . '/farmasic/core/core/Hash.php',
     'HelperForm' => $vendorDir . '/farmasic/core/classes/HelperForm.php',
+    'HelperFormbk2' => $vendorDir . '/farmasic/core/classes/HelperForm copy 2.php',
     'HelperFormold' => $vendorDir . '/farmasic/core/classes/HelperForm copy.php',
     'Mailer' => $vendorDir . '/farmasic/core/classes/Mailer.php',
     'Options' => $vendorDir . '/farmasic/core/classes/Options.php',

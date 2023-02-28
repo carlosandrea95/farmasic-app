@@ -207,15 +207,28 @@ class AdminParametersController extends Controller
             'class' => 'text-center',
             'links' => [
                ['id' => 'id_entity', 'icon' => 'fas fa-pencil', 'class' => 'pr-1', 'href' => 'AdminParameters&action=user'],
-               ['id' => 'id_entity', 'icon' => 'fas fa-trash', 'href' => 'AdminParameters&action=userDel']
+               ['id' => 'id_entity', 'icon' => 'fas fa-trash', 'actionJS' => 'removeAJAX']
             ]
          ]
       ];
-      $this->render('catalog/grid', ['grid' => $dt->generateGrid($head, $rows, Users::getUsers())]);
+      if ($this->isAjaxRequest()) {
+         if (Tools::getValue('removeAJAX')) {
+            Users::removeUser();
+         }
+      } else {
+         $this->render('catalog/grid', ['grid' => $dt->generateGrid($head, $rows, Users::getUsers())]);
+      }
    }
    public function User()
    {
       $helper = new HelperForm();
+      $roles = [];
+      foreach (Parameters::getRoles() as $role) {
+
+         $line['value'] = $role['id_role'];
+         $line['label'] = $role['name'];
+         $roles[] = $line;
+      }
       $form_fields = [
          'legend' =>
          [
@@ -246,12 +259,7 @@ class AdminParametersController extends Controller
                'label' => 'ROL',
                'name' => 'role',
                'required' => true,
-               'options' => [
-                  [
-                     'value' => 1,
-                     'label' => 'ADMINISTRATIVO'
-                  ]
-               ]
+               'options' => $roles
             ],
             [
                'type' => 'text',
@@ -263,7 +271,6 @@ class AdminParametersController extends Controller
                'type' => 'password',
                'label' => 'CONTRASEÑA',
                'name' => 'password',
-               'required' => true,
                'passGenerator' => true,
             ],
             [
@@ -283,11 +290,6 @@ class AdminParametersController extends Controller
                'label' => 'PAÍS',
                'name' => 'op_country',
                'options' => Tools::genOptions(Options::getAll(4)),
-            ],
-            [
-               'type' => 'text',
-               'label' => 'CÓDIGO ZIP',
-               'name' => 'zip_code',
             ],
             [
                'type' => 'text',
@@ -312,22 +314,20 @@ class AdminParametersController extends Controller
          $fields_value = [
             'firstname' => $vals['firstname'],
             'lastname' => $vals['lastname'],
-            // 'owner' => $vals['owner'],
-            // 'description' => $vals['description'],
-            // 'address' => $vals['address'],
-            // 'zip_code' => $vals['zip_code'],
-            // 'email' => $vals['email'],
-            // 'phone' => $vals['phone'],
+            'username' => $vals['username'],
+            'op_city' => $vals['op_city'],
+            'op_state' => $vals['op_state'],
+            'op_country' => $vals['op_country'],
+            'address' => $vals['address'],
+            'role' => $vals['id_role'],
+            'email' => $vals['email'],
+            'phone' => $vals['phone'],
          ];
          $helper->field_vals = $fields_value;
          $this->title = 'Editar Usuario';
       }
       if ($this->isAjaxRequest()) {
-         if (!Tools::getValue('id')) {
-            // Catalog::newDiscount();
-         } else {
-            // Catalog::saveDiscount();
-         }
+         Users::setUser();
       } else {
          $this->render('_partials/form', ['form' => $helper->generateForm($form_fields)]);
       }
@@ -340,6 +340,11 @@ class AdminParametersController extends Controller
             'url' => Tools::baseUrl() . '?controller=AdminParameters&action=role&token=' . Tools::getValue('token'),
             'action' => 'Nuevo Rol',
             'icon' => 'fas fa-square-plus',
+         ),
+         array(
+            'url' => Tools::baseUrl() . '?controller=AdminParameters&action=permissions&token=' . Tools::getValue('token'),
+            'action' => 'Permisos',
+            'icon' => 'fas fa-user-lock',
          ),
       );
       $dt = new DataGrid();
@@ -361,14 +366,29 @@ class AdminParametersController extends Controller
             'type' => 'link',
             'class' => 'text-center',
             'links' => [
-               ['id' => 'id_role', 'icon' => 'fas fa-pencil', 'class' => 'pr-1', 'href' => 'AdminParameters&action=role'],
-               ['id' => 'id_role', 'icon' => 'fas fa-trash', 'href' => 'AdminParameters&action=roleDel']
+               [
+                  'id' => 'id_role', 'icon' => 'fas fa-pencil', 'class' => 'pr-1', 'href' => 'AdminParameters&action=role',
+                  'conditional' => ['operator' => '=', 'one' => 'is_default', 'two' => '1']
+               ],
+               [
+                  'id' => 'id_role', 'icon' => 'fas fa-trash', 'class' => 'pr-1',
+                  'actionJS' => 'removeAJAX',
+                  'conditional' => ['operator' => '=', 'one' => 'is_default', 'two' => '1']
+               ]
             ]
          ]
       ];
-      Parameters::generatePermissions();
-      $this->render('catalog/grid', ['grid' => $dt->generateGrid($head, $rows, Parameters::getRoles())]);
-      // $this->render('_partials/roles');
+
+      if ($this->isAjaxRequest()) {
+         if (Tools::getValue('changeStatusAJAX')) {
+            Parameters::changeRoleStatus();
+         }
+         if (Tools::getValue('removeAJAX')) {
+            Parameters::removeRole();
+         }
+      } else {
+         $this->render('catalog/grid', ['grid' => $dt->generateGrid($head, $rows, Parameters::getRoles())]);
+      }
    }
    public function role()
    {
@@ -387,7 +407,7 @@ class AdminParametersController extends Controller
                'required' => true,
             ],
             [
-               'type' => 'text',
+               'type' => 'switch',
                'label' => 'ACTIVO',
                'name' => 'is_active',
                'required' => true
@@ -401,13 +421,14 @@ class AdminParametersController extends Controller
                   [
                      'value' => 'A',
                      'label' => 'ADMINISTRATIVO'
-                  ], [
-                     'value' => 'C',
-                     'label' => 'CLIENTE'
-                  ], [
-                     'value' => 'P',
-                     'label' => 'PROVEEDOR'
                   ],
+                  //  [
+                  //    'value' => 'C',
+                  //    'label' => 'CLIENTE'
+                  // ], [
+                  //    'value' => 'P',
+                  //    'label' => 'PROVEEDOR'
+                  // ],
                   [
                      'value' => 'S',
                      'label' => 'SOPORTE TÉCNICO'
@@ -419,26 +440,36 @@ class AdminParametersController extends Controller
             'title' => 'Guardar',
          ]
       ];
-      $helper->submit_action = 'AdminParameters&action=user';
+      $helper->submit_action = 'AdminParameters&action=role';
       if (!Tools::getValue('id')) {
          $this->title = 'Nuevo Rol';
       } else {
-         // $vals = Users::getUserById();
-         // $fields_value = [
-         //    'firstname' => $vals['firstname'],
-         //    'lastname' => $vals['lastname'],
+         $vals = Parameters::getRoleById();
+         $fields_value = [
+            'name' => $vals['name'],
+            'is_active' => $vals['is_active'],
+            'role' => $vals['role_type'],
 
-         // ];
-         // $helper->field_vals = $fields_value;
+         ];
+         $helper->field_vals = $fields_value;
          $this->title = 'Editar Rol';
       }
       if ($this->isAjaxRequest()) {
-         if (!Tools::getValue('id')) {
-         } else {
-         }
-         $this->ajaxRedirect('AdminParameters&action=users');
+         Parameters::generatePermissions();
+         Parameters::generatePermissionsRoles();
+         Parameters::setRole();
       } else {
-         $this->render('_partials/form', ['form' => $helper->generateForm($form_fields), 'permissionsGrid' => true]);
+         $this->render('_partials/form', ['form' => $helper->generateForm($form_fields)]);
+      }
+   }
+   public function permissions()
+   {
+      if ($this->isAjaxRequest()) {
+         if (Tools::getValue('changePermissionAJAX')) {
+            Parameters::SetPermissionRole();
+         }
+      } else {
+         $this->render('parameters/permissions', ['roles' => Parameters::getRoles()]);
       }
    }
    public function notify()

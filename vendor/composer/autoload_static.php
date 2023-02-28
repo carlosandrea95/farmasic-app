@@ -37,6 +37,7 @@ class ComposerStaticInitaf9501c2517e417a758ba38f31df7bd2
 
     public static $classMap = array (
         'Accounting' => __DIR__ . '/..' . '/farmasic/core/classes/Accounting.php',
+        'Acl' => __DIR__ . '/..' . '/farmasic/core/classes/Acl.php',
         'Audit' => __DIR__ . '/..' . '/farmasic/core/classes/Audit.php',
         'Auth' => __DIR__ . '/..' . '/farmasic/core/classes/Auth.php',
         'Banks' => __DIR__ . '/..' . '/farmasic/core/classes/Banks.php',
@@ -60,6 +61,7 @@ class ComposerStaticInitaf9501c2517e417a758ba38f31df7bd2
         'ExchangeRates' => __DIR__ . '/..' . '/farmasic/core/classes/ExchangeRates.php',
         'Hash' => __DIR__ . '/..' . '/farmasic/core/core/Hash.php',
         'HelperForm' => __DIR__ . '/..' . '/farmasic/core/classes/HelperForm.php',
+        'HelperFormbk2' => __DIR__ . '/..' . '/farmasic/core/classes/HelperForm copy 2.php',
         'HelperFormold' => __DIR__ . '/..' . '/farmasic/core/classes/HelperForm copy.php',
         'Mailer' => __DIR__ . '/..' . '/farmasic/core/classes/Mailer.php',
         'Options' => __DIR__ . '/..' . '/farmasic/core/classes/Options.php',
