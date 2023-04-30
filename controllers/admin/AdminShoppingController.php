@@ -51,11 +51,6 @@ class AdminShoppingController extends Controller
    }
    public function newOrder()
    {
-      if (!Tools::getValue('id')) {
-         $id = Shopping::newOrder();
-         $this->redirect('?controller=AdminShopping&action=newOrder&id=' .
-            $id . '&token=' . Tools::getValue('token'));
-      }
       if ($this->isAjaxRequest()) {
          if (!Tools::getValue('preview')) {
             if (Tools::getValue('fetchShoppingDetails')) {
@@ -88,6 +83,11 @@ class AdminShoppingController extends Controller
             }
          }
       } else {
+         if (!Tools::getValue('id')) {
+            $id = Shopping::newOrder();
+            $this->redirect('?controller=AdminShopping&action=newOrder&id=' .
+               $id . '&token=' . Tools::getValue('token'));
+         }
          $this->render('shopping/newOrder', ['date' => Shopping::getOrderDate(), 'details' => Shopping::fetchShoppingDetails(), 'data' => Shopping::getOrderById(), 'suppliers' => Shopping::getSuppliers(), 'products' => Catalog::getProducts(), 'warehouses' => Warehouses::getWarehouses()]);
       }
    }

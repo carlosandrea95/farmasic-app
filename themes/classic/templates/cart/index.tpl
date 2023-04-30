@@ -131,11 +131,26 @@
                      <h6 class="text-bold text-sm">Descuentos</h6>
                   </div>
                   <div class="col-6 d-flex justify-content-end">
-                     <h6 class="text-sm text-right">{Tools::moneyFormat($totals['discount'],'BS')} <br> <span
-                           class="text-success text-sm">{Tools::moneyFormat($totals['discount_usd'],'USD')}</span></h6>
+                     <h6 class="text-sm text-right">
+                        {Tools::moneyFormat($totals['discount']+$totals['discount_commercial'],'BS')} <br> <span
+                           class="text-success text-sm">{Tools::moneyFormat($totals['discount_usd']+$totals['discount_usd_commercial'],'USD')}</span>
+                     </h6>
                   </div>
                </div>
                <hr>
+               <div class="row">
+                  <div class="col-6">
+                     <h6 class="text-bold text-sm">Neto</h6>
+                  </div>
+                  <div class="col-6 d-flex justify-content-end">
+                     <h6 class="text-sm text-right">
+                        {Tools::moneyFormat(($totals['total'] - $totals['discount'] - $totals['discount_commercial']) ,'BS')}
+                        <br>
+                        <span
+                           class="text-success text-sm">{Tools::moneyFormat(($totals['total_usd'] - $totals['discount_usd'] - $totals['discount_usd_commercial']),'USD')}</span>
+                     </h6>
+                  </div>
+               </div>
                <div class="row">
                   <div class="col-6">
                      <h6 class="text-bold text-sm">Impuestos</h6>
@@ -151,8 +166,9 @@
                   </div>
                   <div class="col-6 d-flex justify-content-end">
                      <h6 class="text-right">
-                        {Tools::moneyFormat(($totals['total']+$totals['tax']-$totals['discount']),'BS')} <br> <span
-                           class="text-success">{Tools::moneyFormat(($totals['total_usd']+$totals['tax_usd']-$totals['discount_usd']),'USD')}</span>
+                        {Tools::moneyFormat(($totals['total']-$totals['discount']-$totals['discount_commercial']+$totals['tax']),'BS')}
+                        <br> <span
+                           class="text-success">{Tools::moneyFormat(($totals['total_usd']-$totals['discount_usd']-$totals['discount_usd_commercial']+$totals['tax_usd']),'USD')}</span>
                      </h6>
                   </div>
                </div>

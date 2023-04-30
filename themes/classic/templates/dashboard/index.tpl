@@ -47,15 +47,15 @@
                <tbody>
                   <tr>
                      <td>Limite de Crédito:</td>
-                     <td class="text-right">{Tools::valid($clientData['credit_limit'])}</td>
+                     <td class="text-right">{Customers::getAvailableCreditTime()}</td>
                   </tr>
                   <tr>
                      <td>Saldo Actual:</td>
-                     <td class="text-right">{Tools::valid($clientData['contact_person'])}</td>
+                     <td class="text-right">{Tools::moneyFormat(Orders::getAvailableBalance(),'USD')}</td>
                   </tr>
                   <tr>
                      <td>Credito Disponible:</td>
-                     <td class="text-right">{Tools::valid($clientData['contact_person'])}</td>
+                     <td class="text-right">{Tools::valid(Tools::moneyFormat($clientData['credit_limit'],'USD'))}</td>
                   </tr>
                   <tr>
                      <td>Descuento Comercial:</td>

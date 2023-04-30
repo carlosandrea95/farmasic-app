@@ -23,16 +23,17 @@
                      <th class="text-center">#</th>
                      <th class="text-center">IMAGEN</th>
                      <th class="text-center">PEDIR</th>
-                     <th class="text-center">DESCRIPCION</th>
-                     <th class="text-center">CODIGO</th>
-                     <th class="text-center">EXISTENCIA</th>
-                     <th class="text-center">PRECIO</th>
-                     <th class="text-center">IVA</th>
-                     <th class="text-center">DC</th>
-                     <th class="text-center">NETO</th>
-                     <th class="text-center">BARRA</th>
-                     <th class="text-center">MARCA</th>
+                     <th class="text-center">DESCRIPCIÓN</th>
                      <th class="text-center">COMPONENTE</th>
+                     <th class="text-center">CODIGO</th>
+                     <th class="text-center">LOTE</th>
+                     <th class="text-center">EXISTENCIA</th>
+                     <th class="text-center">BARRA</th>
+                     <th class="text-center">PRECIO</th>
+                     <th class="text-center">IMPTO</th>
+                     <th class="text-center">DESCT</th>
+                     <th class="text-center">NETO</th>
+                     {* <th class="text-center">MARCA</th> *}
                   </tr>
                </thead>
                <tbody>
@@ -40,7 +41,8 @@
                      {foreach from=$products item=$p}
                         <tr class="text-xs">
                            <td>{$p['num_row']}</td>
-                           <td><img src="{IMG_URI}p/{$p['img_name']}" style="width: 70px;height: 70px;object-fit:contain">
+                           <td><img src="{Storage::get('products',$p['id_product'],$p['img_name'])}"
+                                 style="width: 70px;height: 70px;object-fit:contain;border-radius:10px;border: 1px solid lightgray;">
                            </td>
                            <td class="col-4">
                               <div class="input-group input-group-sm" style="margin-top: 1rem;">
@@ -55,8 +57,11 @@
                               </div>
                            </td>
                            <td class="col-4 text-left">{$p['name']}</td>
+                           <td class="text-center">{$p['active']}</td>
                            <td class="text-center">{$p['code']}</td>
+                           <td class="text-center">{$p['lot']}</td>
                            <td class="text-center">{round($p['current_stock'])}</td>
+                           <td class="text-center">{$p['bar_code']}</td>
                            <td class="text-right">
                               {Tools::moneyFormat($p['price'],'BS',false)}
                               <span class="text-success">{Tools::moneyFormat($p['price_usd'],'USD',false)}</span>
@@ -64,13 +69,12 @@
                            <td class="text-center">{$p['rate']}</td>
                            <td class="text-danger text-center">
                               {$p['percentage']}%
+                              <br>
+                              <span>{Customers::getTradeDiscount()}% (COM)</span>
                            </td>
                            <td class="text-right">
                               {Tools::moneyFormat($p['net_price'],'BS',false)}
                               <span class="text-success">{Tools::moneyFormat($p['net_price_usd'],'USD',false)}</span>
-                           <td class="text-center">{$p['bar_code']}</td>
-                           <td class="text-center">{$p['brand']}</td>
-                           <td class="text-center">{$p['active']}</td>
                         </tr>
                      {/foreach}
                   {/if}

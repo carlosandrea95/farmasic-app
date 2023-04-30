@@ -4,7 +4,7 @@
 <head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>FARMASIC | Acceso</title>
+   <title>DROVAZCA | Acceso</title>
    <!-- Tell the browser to be responsive to screen width -->
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -36,7 +36,7 @@
       <div class="login-logo">
          <a href="https://drovazca.com">
             <img class="img img-fluid" src="{$urls.assets}img/logo_drovaz.png" alt=""><br>
-            FARMASIC
+            DROVAZCA
          </a>
       </div>
    </div>

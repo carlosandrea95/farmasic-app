@@ -5,7 +5,7 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>FARMASIC{if isset($template.title)} | {$template.title} {/if}</title>
+   <title>DROVAZCA{if isset($template.title)} | {$template.title} {/if}</title>
    <link href="{$urls.assets}css/fonts.min.css" rel="stylesheet">
    <link rel="preload" as="style" href="{$urls.assets}plugins/fontawesome-free/css/all.min.css">
    <link rel="icon" type="image/x-icon" href="{$urls.assets}img/favicon_drovaz.png">
@@ -30,108 +30,12 @@
    <script src="{$urls.assets}plugins/moment/moment.min.js"></script>
 
    <script src="{$urls.assets}plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+
    {nocache}
    {foreach from=$js item=$uri}
       <script src=" {$uri}"></script>
    {/foreach}
    {/nocache}
-   <style>
-      .spinner {
-         width: 24px;
-         height: 80px;
-         display: block;
-         margin: 35px auto 0;
-         border: 1px solid #FFF;
-         border-radius: 0 0 50px 50px;
-         position: relative;
-         box-shadow: 0px 0px #FF3D00 inset;
-         background-image: linear-gradient(#FF3D00 100px, transparent 0);
-         background-position: 0px 0px;
-         background-size: 22px 80px;
-         background-repeat: no-repeat;
-         box-sizing: border-box;
-         animation: animloader 6s linear infinite;
-      }
-
-      .spinner::after {
-         content: '';
-         box-sizing: border-box;
-         top: -6px;
-         left: 50%;
-         transform: translateX(-50%);
-         position: absolute;
-         border: 1px solid #FFF;
-         border-radius: 50%;
-         width: 28px;
-         height: 6px;
-      }
-
-      .spinner::before {
-         content: '';
-         box-sizing: border-box;
-         left: 0;
-         bottom: -4px;
-         border-radius: 50%;
-         position: absolute;
-         width: 6px;
-         height: 6px;
-         animation: animloader1 6s linear infinite;
-      }
-
-      @keyframes animloader {
-         0% {
-            background-position: 0px 80px;
-         }
-
-         100% {
-            background-position: 0px 0px;
-         }
-      }
-
-      @keyframes animloader1 {
-         0% {
-            box-shadow: 4px -10px rgba(255, 255, 255, 0), 6px 0px rgba(255, 255, 255, 0), 8px -15px rgba(255, 255, 255, 0),
-               12px 0px rgba(255, 255, 255, 0);
-         }
-
-         20% {
-            box-shadow: 4px -20px rgba(255, 255, 255, 0), 8px -10px rgba(255, 255, 255, 0), 10px -30px rgba(255, 255, 255,
-                  0.5), 15px -5px rgba(255, 255, 255, 0);
-         }
-
-         40% {
-            box-shadow: 2px -40px rgba(255, 255, 255, 0.5), 8px -30px rgba(255, 255, 255, 0.4), 8px -60px rgba(255, 255, 255,
-                  0.5), 12px -15px rgba(255, 255, 255, 0.5);
-         }
-
-         60% {
-            box-shadow: 4px -60px rgba(255, 255, 255, 0.5), 6px -50px rgba(255, 255, 255, 0.4), 10px -90px rgba(255, 255, 255,
-                  0.5), 15px -25px rgba(255, 255, 255, 0.5);
-         }
-
-         80% {
-            box-shadow: 2px -80px rgba(255, 255, 255, 0.5), 4px -70px rgba(255, 255, 255, 0.4), 8px -120px rgba(255, 255, 255,
-                  0), 12px -35px rgba(255, 255, 255, 0.5);
-         }
-
-         100% {
-            box-shadow: 4px -100px rgba(255, 255, 255, 0), 8px -90px rgba(255, 255, 255, 0), 10px -120px rgba(255, 255, 255,
-                  0), 15px -45px rgba(255, 255, 255, 0);
-         }
-      }
-
-      .loader {
-         position: fixed;
-         display: flex;
-         flex: 1;
-         justify-content: center;
-         align-items: center;
-         height: 100%;
-         width: 85%;
-         z-index: 99999;
-         background: rgba(52, 58, 64, .97);
-      }
-   </style>
 </head>
 
 <body class="hold-transition sidebar-mini text-sm">
@@ -230,7 +134,7 @@ height: 35px;" class="mr-3 img-circle">
          <a href="{Tools::baseUrl()}dashboard" class="brand-link bg-navy">
             <img src="{$urls.assets}img/favicon_drovaz.png" alt="AdminLTE Logo" class="brand-image img-circle"
                style="opacity: .8">
-            <h2 class="brand-text text-bg font-weight-bold text-white " style="font-size:16px">FARMASIC</h2>
+            <h2 class="brand-text text-bg font-weight-bold text-white " style="font-size:16px">DROVAZCA</h2>
          </a>
 
          <div class="sidebar">
@@ -271,9 +175,6 @@ height: 35px;" class="mr-3 img-circle">
       </aside>
 
       <div class="content-wrapper">
-         <div class="loader">
-            <span class="spinner"></span>
-         </div>
          <div class="modal fade" id="modal-lg" aria-modal="true" role="dialog">
             <div class="modal-dialog">
                <div class="modal-content">

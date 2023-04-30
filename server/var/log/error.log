@@ -1,0 +1,175 @@
+[2023-03-03 10:03:02] [E_WARNING: require_once(C:\xampp\htdocs\drovazca\farmasic/config/parameters.php): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\farmasic\config\bootstrings.php] [LINE 5]
+[2023-03-31 11:03:04] [E_WARNING: include(C:\xampp\htdocs\drovazca\app\vendor\composer/../farmasic/core/classes/Acl.php): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\composer\ClassLoader.php] [LINE 582]
+[2023-03-31 11:03:12] [E_WARNING: include(C:\xampp\htdocs\drovazca\app\vendor\composer/../farmasic/core/classes/Acl.php): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\vendor\composer\ClassLoader.php] [LINE 582]
+[2023-03-31 11:03:13] [E_WARNING: scandir(C:\xampp\htdocs\drovazca\app/js): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:23] [E_WARNING: scandir(http://app.drovazca.local//js): failed to open dir: not implemented] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:35] [E_WARNING: scandir(http://app.drovazca.local//js): failed to open dir: not implemented] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:36] [E_WARNING: scandir(http://app.drovazca.local//js): failed to open dir: not implemented] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:37] [E_WARNING: scandir(http://app.drovazca.local//js): failed to open dir: not implemented] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:37] [E_WARNING: scandir(http://app.drovazca.local//js): failed to open dir: not implemented] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:38] [E_WARNING: scandir(http://app.drovazca.local//js): failed to open dir: not implemented] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:32] [E_WARNING: scandir(/js): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:26] [E_WARNING: scandir(/js): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:46] [E_WARNING: scandir(..//js): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:01] [E_WARNING: scandir(../../js): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:02] [E_WARNING: scandir(../../js): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:33] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'CatalogController' does not have a method 'js'] [IN FILE C:\xampp\htdocs\drovazca\farmasic\core\router\Dispatcher.php] [LINE 112]
+[2023-03-31 11:03:05] [E_WARNING: include(C:\xampp\htdocs\drovazca\app\server\vendor\composer/../../core/Db.php): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\vendor\composer\ClassLoader.php] [LINE 571]
+[2023-03-31 11:03:20] [E_WARNING: include(C:\xampp\htdocs\drovazca\app\server\vendor\composer/../../core/Db.php): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\vendor\composer\ClassLoader.php] [LINE 571]
+[2023-03-31 11:03:19] [E_WARNING: include(C:\xampp\htdocs\drovazca\app\server\vendor\composer/../../core/Db.php): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\vendor\composer\ClassLoader.php] [LINE 571]
+[2023-03-31 11:03:34] [E_WARNING: include(C:\xampp\htdocs\drovazca\app\server\vendor\composer/../../core/Db.php): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\vendor\composer\ClassLoader.php] [LINE 571]
+[2023-03-31 11:03:00] [E_WARNING: include(C:\xampp\htdocs\drovazca\app\server\vendor\composer/../../core/Db.php): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\vendor\composer\ClassLoader.php] [LINE 571]
+[2023-03-31 11:03:12] [E_WARNING: scandir(http://app.drovazca.local/server/): failed to open dir: not implemented] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:17] [E_WARNING: scandir(http://app.drovazca.local/server/js/): failed to open dir: not implemented] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:40] [E_WARNING: scandir(C:\xampp\htdocs\drovazca\app\serverjs/): El sistema no puede encontrar el archivo especificado. (code: 2)] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Tools.php] [LINE 237]
+[2023-03-31 11:03:24] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'loginController' does not have a method 'products'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 112]
+[2023-03-31 11:03:30] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'loginController' does not have a method 'products'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 112]
+[2023-03-31 11:03:06] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminDashboardController' does not have a method 'products'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 112]
+[2023-03-31 11:03:25] [E_WARNING: strpos(): Empty needle] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Tools.php] [LINE 273]
+[2023-04-01 12:04:04] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('Ratchet\\Server\\...')
+#2 C:\xampp\htdocs\drovazca\app\console\server.php(11): spl_autoload_call('Ratchet\\Server\\...')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 12:04:15] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('Ratchet\\Server\\...')
+#2 C:\xampp\htdocs\drovazca\app\console\server.php(11): spl_autoload_call('Ratchet\\Server\\...')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 12:04:16] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('Ratchet\\Server\\...')
+#2 C:\xampp\htdocs\drovazca\app\console\server.php(11): spl_autoload_call('Ratchet\\Server\\...')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 12:04:17] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('Ratchet\\Server\\...')
+#2 C:\xampp\htdocs\drovazca\app\console\server.php(11): spl_autoload_call('Ratchet\\Server\\...')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 12:04:00] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('Ratchet\\Message...')
+#2 C:\xampp\htdocs\drovazca\app\server\core\sockets\Notificaitons.php(7): spl_autoload_call('Ratchet\\Message...')
+#3 C:\xampp\htdocs\drovazca\app\console\server.php(7): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 12:04:22] [E_WARNING: strpos(): Empty needle] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Tools.php] [LINE 273]
+[2023-04-01 08:04:15] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('File')
+#2 C:\xampp\htdocs\drovazca\app\index.php(3): spl_autoload_call('File')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 08:04:18] [E_WARNING: include(C:\xampp\htdocs\drovazca\app\server\core\tools\Files.php): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\vendor\composer\ClassLoader.php] [LINE 582]
+[2023-04-01 08:04:28] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('File')
+#2 C:\xampp\htdocs\drovazca\app\index.php(3): spl_autoload_call('File')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 08:04:39] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('File')
+#2 C:\xampp\htdocs\drovazca\app\index.php(3): spl_autoload_call('File')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 08:04:41] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('File')
+#2 C:\xampp\htdocs\drovazca\app\index.php(3): spl_autoload_call('File')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 08:04:42] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('File')
+#2 C:\xampp\htdocs\drovazca\app\index.php(3): spl_autoload_call('File')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 08:04:42] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('File')
+#2 C:\xampp\htdocs\drovazca\app\index.php(3): spl_autoload_call('File')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 08:04:42] [E_ERROR: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\xampp\htdocs\drovazca\app/pdf/): El sistema no puede encontrar el archivo especificado. (code: 2) in C:\xampp\htdocs\drovazca\app\server\config\autoload.php:13
+Stack trace:
+#0 C:\xampp\htdocs\drovazca\app\server\config\autoload.php(13): RecursiveDirectoryIterator->__construct('C:\\xampp\\htdocs...')
+#1 [internal function]: {closure}('File')
+#2 C:\xampp\htdocs\drovazca\app\index.php(3): spl_autoload_call('File')
+#3 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\server\config\autoload.php] [LINE 13]
+[2023-04-01 08:04:05] [E_NOTICE: Undefined index: ] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\bda92a1da24bc9b46b72d86725cc46746a79eeff_0.file.featured.tpl.php] [LINE 49]
+[2023-04-01 08:04:42] [E_NOTICE: Undefined index: ] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\bda92a1da24bc9b46b72d86725cc46746a79eeff_0.file.featured.tpl.php] [LINE 49]
+[2023-04-01 08:04:23] [E_NOTICE: Undefined index: ] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\bda92a1da24bc9b46b72d86725cc46746a79eeff_0.file.featured.tpl.php] [LINE 45]
+[2023-04-01 08:04:41] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'DocumentsController' does not have a method 'style="max-width:300px"'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-01 08:04:18] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'DocumentsController' does not have a method 'style="max-width:300px"'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-01 08:04:19] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'DocumentsController' does not have a method 'documents'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-01 08:04:47] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'DocumentsController' does not have a method 'ruta'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-01 09:04:44] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'DocumentsController' does not have a method 'ruta'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-01 09:04:26] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminCatalogController' does not have a method 'product_preview'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-02 09:04:12] [E_NOTICE: Undefined offset: -1] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\8971abaa1fe6ffb73b84b6ed7e6a0de09bff6c34_0.file.product_preview.tpl.php] [LINE 206]
+[2023-04-02 09:04:38] [E_NOTICE: Undefined offset: -1] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\8971abaa1fe6ffb73b84b6ed7e6a0de09bff6c34_0.file.product_preview.tpl.php] [LINE 205]
+[2023-04-02 10:04:13] [E_NOTICE: Undefined offset: 2] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\8971abaa1fe6ffb73b84b6ed7e6a0de09bff6c34_0.file.product_preview.tpl.php] [LINE 207]
+[2023-04-02 10:04:33] [E_NOTICE: Undefined offset: 2] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\8971abaa1fe6ffb73b84b6ed7e6a0de09bff6c34_0.file.product_preview.tpl.php] [LINE 205]
+[2023-04-02 10:04:16] [E_NOTICE: Undefined offset: 2] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\8971abaa1fe6ffb73b84b6ed7e6a0de09bff6c34_0.file.product_preview.tpl.php] [LINE 205]
+[2023-04-02 11:04:14] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class '{echofiles' not found] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-02 11:04:18] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class '{echofiles' not found] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-02 11:04:08] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class '{echofiles' not found] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-02 11:04:49] [E_ERROR: Uncaught Error: Class 'Storage' not found in C:\xampp\htdocs\drovazca\app\index.php:3
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\index.php] [LINE 3]
+[2023-04-02 11:04:24] [E_ERROR: Uncaught Error: Class 'Storage' not found in C:\xampp\htdocs\drovazca\app\index.php:3
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\index.php] [LINE 3]
+[2023-04-02 11:04:26] [E_ERROR: Uncaught Error: Class 'Storage' not found in C:\xampp\htdocs\drovazca\app\index.php:3
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\index.php] [LINE 3]
+[2023-04-02 11:04:26] [E_ERROR: Uncaught Error: Class 'Storage' not found in C:\xampp\htdocs\drovazca\app\index.php:3
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\index.php] [LINE 3]
+[2023-04-02 11:04:30] [E_ERROR: Uncaught Error: Class 'Storage' not found in C:\xampp\htdocs\drovazca\app\index.php:3
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\index.php] [LINE 3]
+[2023-04-02 11:04:31] [E_ERROR: Uncaught Error: Class 'Storage' not found in C:\xampp\htdocs\drovazca\app\index.php:3
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\index.php] [LINE 3]
+[2023-04-02 11:04:32] [E_ERROR: Uncaught Error: Class 'Storage' not found in C:\xampp\htdocs\drovazca\app\index.php:3
+Stack trace:
+#0 {main}
+  thrown] [IN FILE C:\xampp\htdocs\drovazca\app\index.php] [LINE 3]
+[2023-04-21 08:04:29] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminBankController' does not have a method 'payment_methods'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-21 08:04:30] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\xampp\htdocs\drovazca\app\server\classes\Catalog.php] [LINE 100]
+[2023-04-21 08:04:37] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\xampp\htdocs\drovazca\app\server\classes\Catalog.php] [LINE 100]
+[2023-04-21 08:04:26] [E_NOTICE: Trying to access array offset on value of type bool] [IN FILE C:\xampp\htdocs\drovazca\app\server\classes\Catalog.php] [LINE 100]
+[2023-04-23 12:04:54] [E_WARNING: copy(C:\xampp\htdocs\drovazca\app\server/storage/entities/products/52/Imagen de WhatsApp 2023-04-07 a las 12.56.30.jpg): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Storage.php] [LINE 22]
+[2023-04-23 12:04:13] [E_WARNING: copy(C:\xampp\htdocs\drovazca\app\server/storage/entities/products/52/Imagen de WhatsApp 2023-04-07 a las 12.56.30.jpg): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Storage.php] [LINE 22]
+[2023-04-23 12:04:39] [E_WARNING: copy(C:\xampp\htdocs\drovazca\app\server/storage/entities/products/52/Imagen de WhatsApp 2023-04-07 a las 12.56.30.jpg): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Storage.php] [LINE 23]
+[2023-04-23 12:04:39] [E_WARNING: copy(C:\xampp\htdocs\drovazca\app\server/storage/entities/products/52/Imagen de WhatsApp 2023-04-07 a las 12.56.30.jpg): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Storage.php] [LINE 23]
+[2023-04-23 12:04:05] [E_WARNING: copy(C:\xampp\htdocs\drovazca\app\server/storage/entities/products/52/Imagen de WhatsApp 2023-04-07 a las 12.56.30.jpg): failed to open stream: No such file or directory] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\tools\Storage.php] [LINE 23]
+[2023-04-30 04:04:39] [E_NOTICE: Undefined index: date_creation] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\e5f62c10ca0bdb1779abd2b9d8d7e2c7e0fd1960_0.file.order.tpl.php] [LINE 102]
+[2023-04-30 04:04:42] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminOrdersController' does not have a method 'print'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-30 04:04:00] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminOrdersController' does not have a method 'print'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-30 04:04:02] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminOrdersController' does not have a method 'printNote'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-30 04:04:04] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminOrdersController' does not have a method 'printDelivery'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
+[2023-04-30 04:04:09] [E_NOTICE: Undefined index: date_creation] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\e5f62c10ca0bdb1779abd2b9d8d7e2c7e0fd1960_0.file.order.tpl.php] [LINE 102]

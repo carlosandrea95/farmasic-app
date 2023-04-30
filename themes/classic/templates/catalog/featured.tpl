@@ -11,10 +11,11 @@
 </div>
 <div class="row mt-2">
    {foreach from=$products item=$p}
+
       <div class="col-3">
          <form class="formCart" method="post" target="{Tools::baseUrl()}cart/add">
             <div class="card card-navy card-outline">
-               <img src="{IMG_URI}p/{$p['img_name']}" class="card-img-top">
+               <img src="{Storage::get('products',$p['id_product'],$p['img_name'])}" class="card-img-top">
                <div class="card-body" style="padding: 1em .5em;">
                   <h7 style="font-size: .9em;"><b>{$p['name']}</b></h7><br>
                   <h7 class="text-bold">{Tools::moneyFormat($p['price'])}</h7>

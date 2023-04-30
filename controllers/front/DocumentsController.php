@@ -94,7 +94,7 @@ class DocumentsController extends Controller
                'label' => 'IMAGEN DE SOPORTE',
                'name' => 'img',
                'col' => 5,
-               'save_path' => IMG_URI . 'd/' . Session::get('_uid') . '/',
+               'entity_path' => 'documents',
                'ext' => ['.jpg', '.png', '.jpeg'],
                'required' => true,
             ],

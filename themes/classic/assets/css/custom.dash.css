@@ -10,7 +10,7 @@
   display: inline-flex;
   align-items: center;
 }
-[class*="sidebar-dark"] .brand-link {
+[class*='sidebar-dark'] .brand-link {
   border-bottom: none !important;
 }
 .bg-light-gray {

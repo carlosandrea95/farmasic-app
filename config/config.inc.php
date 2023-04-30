@@ -8,16 +8,5 @@ if (!defined('ROOT_DIR')) {
 if (!defined('DEFAULT_CONTROLLER')) {
    define('DEFAULT_CONTROLLER', 'login');
 }
-
-require_once ROOT_DIR . '/vendor/autoload.php';
-
-
-// require_once 'vendor/farmasic/core/src/config/define';
-// $loadDir = realpath('../../');
-// // Load defines initial
-// require_once $loadDir . '/framework/config/defines.inc.php';
-// // Running autoload
-// require_once CONFIG_DIR . 'autoload.php';
-// require_once $loadDir . '/config/bootstrings.php';
-
-// require_once CONFIG_DIR . 'define_uri.inc.php';
+require_once ROOT_DIR . '/server/config/autoload.php';
+require_once ROOT_DIR . '/server/vendor/autoload.php';

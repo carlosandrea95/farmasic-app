@@ -13,7 +13,7 @@
    <div class="col-sm-12">
       <div class="card card-navy card-outline">
          <div class="card-body p-2">
-            <table id="example1" class="table table-responsive table-sm table-striped dataTable dtr-inline"
+            <table id="example1" class="table table-sm table-striped dataTable dtr-inline"
                aria-describedby="example1_info">
                <thead class="bg-navy">
                   <tr>
@@ -21,25 +21,27 @@
                      <th class="text-center">IMAGEN</th>
                      <th class="text-center">PEDIR</th>
                      <th class="text-center">DESCRIPCIÓN</th>
-                     <th class="text-center">CODIGO</th>
-                     <th class="text-center">EXISTENCIA</th>
-                     <th class="text-center">PRECIO</th>
-                     <th class="text-center">IVA</th>
-                     <th class="text-center">DC</th>
-                     <th class="text-center">NETO</th>
-                     <th class="text-center">BARRA</th>
-                     <th class="text-center">MARCA</th>
                      <th class="text-center">COMPONENTE</th>
+                     <th class="text-center">CODIGO</th>
+                     <th class="text-center">LOTE</th>
+                     <th class="text-center">EXISTENCIA</th>
+                     <th class="text-center">BARRA</th>
+                     <th class="text-center">PRECIO</th>
+                     <th class="text-center">IMPTO</th>
+                     <th class="text-center">DESCT</th>
+                     <th class="text-center">NETO</th>
+                     {* <th class="text-center">MARCA</th> *}
                   </tr>
                </thead>
                <tbody>
                   {if !empty($products)}
                      {foreach from=$products item=$p}
-                        <tr class="text-xs">
+                        <tr class="text-sm">
                            <td>{$p['num_row']}</td>
-                           <td><img src="{IMG_URI}p/{$p['img_name']}" style="width: 70px;height: 70px;object-fit:contain">
+                           <td><img src="{Storage::get('products',$p['id_product'],$p['img_name'])}"
+                                 style="width: 70px;height: 70px;object-fit:contain;border-radius:10px;border: 1px solid lightgray;">
                            </td>
-                           <td class="col-4">
+                           <td class="col-2">
                               <div class="input-group input-group-sm" style="margin-top: 1rem;">
                                  <form class="formCart d-flex" method="post" target="{Tools::baseUrl()}cart/add">
                                     <input type="hidden" name="product" value="{$p['id_product']}">
@@ -51,9 +53,12 @@
 
                               </div>
                            </td>
-                           <td class="col-4 text-left">{strtoupper($p['name'])}</td>
+                           <td class="col-3 text-left">{strtoupper($p['name'])}</td>
+                           <td class="text-center">{strtoupper($p['active'])}</td>
                            <td class="text-center">{$p['code']}</td>
+                           <td class="text-center">{$p['lot']}</td>
                            <td class="text-center">{round($p['current_stock'])}</td>
+                           <td class="text-center">{$p['bar_code']}</td>
                            <td class="text-right">
                               {Tools::moneyFormat($p['price'],'BS',false)}
                               <span class="text-success">{Tools::moneyFormat($p['price_usd'],'USD',false)}</span>
@@ -61,13 +66,13 @@
                            <td class="text-center">{$p['rate']}</td>
                            <td class="text-danger">
                               {$p['percentage']}%
+                              <br>
+                              <span>{Customers::getTradeDiscount()}% (COM)</span>
                            </td>
                            <td class="text-right">
                               {Tools::moneyFormat($p['net_price'],'BS',false)}
                               <span class="text-success">{Tools::moneyFormat($p['net_price_usd'],'USD',false)}</span>
-                           <td class="text-center">{$p['bar_code']}</td>
-                           <td class="text-center">{strtoupper($p['brand'])}</td>
-                           <td class="text-center">{strtoupper($p['active'])}</td>
+                              {* <td class="text-center">{strtoupper($p['brand'])}</td> *}
                         </tr>
                      {/foreach}
                   {/if}

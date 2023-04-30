@@ -73,7 +73,7 @@ class AdminCatalogController extends Controller
          ['label' => 'PRECIO', 'class' => 'text-center'],
          ['label' => 'STOCK', 'class' => 'text-center'],
          ['label' => 'ACTIVO', 'class' => 'text-center'],
-         ['label' => 'OPCIONES', 'class' => 'text-center col-1'],
+         ['label' => 'OPCIONES', 'class' => 'text-center'],
       ];
       $rows = [
          ['field' => 'id_product', 'class' => 'text-center'],
@@ -91,8 +91,9 @@ class AdminCatalogController extends Controller
          ['type' => 'switchJS', 'field' => 'is_active', 'class' => 'text-center', 'id' => 'id_product', 'actionJS' => 'changeStatusWithAJAX', 'target' => ''],
          [
             'type' => 'link',
-            'class' => 'text-center',
+            'class' => 'text-center ',
             'links' => [
+               ['id' => 'id_product', 'icon' => 'fas fa-eye', 'class' => 'pr-1', 'href' => 'AdminCatalog&action=product_preview'],
                ['id' => 'id_product', 'icon' => 'fas fa-pencil', 'class' => 'pr-1', 'href' => 'AdminCatalog&action=product'],
                ['id' => 'id_product', 'icon' => 'fas fa-trash', 'actionJS' => 'removeAJAX']
             ]
@@ -122,10 +123,11 @@ class AdminCatalogController extends Controller
             Catalog::newProduct();
          }
          if (Tools::getValue('uploadProductIMG')) {
-            Catalog::uploadProductIMG();
+            $res = Catalog::uploadProductIMG();
+            if ($res) $this->ajaxResponse($res);
          }
          if (Tools::getValue('removeProductIMG')) {
-            Catalog::removeProductIMG();
+            $this->ajaxResponse(Catalog::removeProductIMG());
          }
          if (Tools::getValue('fetchProductStock')) {
             Tools::ajaxResponse(Catalog::getProductStock());
@@ -159,6 +161,22 @@ class AdminCatalogController extends Controller
             'stocks' => Catalog::getProductStock()
          ));
       }
+   }
+   public function product_preview()
+   {
+      $this->title = 'Vista Previa';
+      $this->render('catalog/product_preview', [
+         'date' => Catalog::getNewProductDate(),
+         'data' => Catalog::getProductById(),
+         'actives' => Catalog::getActiveCompound(),
+         'categories' => Catalog::getCategories(),
+         'brands' => Catalog::getBrands(),
+         'discounts' => Catalog::getDiscounts(),
+         'suppliers' => Shopping::getSuppliers(),
+         'locations' => Warehouses::getWarehouses(),
+         'taxes' => Catalog::getTaxes(),
+         'stocks' => Catalog::getProductStock()
+      ]);
    }
    public function categories()
    {
