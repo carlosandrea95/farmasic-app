@@ -83,14 +83,14 @@ class Catalog
    }
    public static function prepareProduct()
    {
-      $sql = "SELECT MAX(id_product) as id FROM fs_products WHERE op_status='N'";
+      $sql = "SELECT id_product FROM fs_products WHERE op_status='N' ORDER BY id_product DESC LIMIT 1";
       $if_exist = Db::getInstance()->Execute($sql);
-      if ($if_exist['id'] != null || $if_exist['id'] != '') {
-         $id = $if_exist['id'];
+      if ($if_exist['id_product'] != null || $if_exist['id_product'] != '') {
+         $id = $if_exist['id_product'];
       } else {
          $sql = "INSERT INTO fs_products (created_at,op_status,is_active) VALUES (NOW(),'N',0)";
          Db::getInstance()->Execute($sql);
-         $sql = "SELECT MAX(id_product) as id FROM fs_products WHERE op_status='N'";
+         $sql = "SELECT id_product FROM fs_products WHERE op_status='N' ORDER BY id_product DESC LIMIT 1";
          $response = Db::getInstance()->Execute($sql);
          $id = $response['id'];
       }
