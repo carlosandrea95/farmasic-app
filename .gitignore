@@ -1,2 +1,3 @@
-vendor/
 .vscode
+/__test__/
+/server/var/cache/*
