@@ -173,3 +173,67 @@ Stack trace:
 [2023-04-30 04:04:02] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminOrdersController' does not have a method 'printNote'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
 [2023-04-30 04:04:04] [E_WARNING: call_user_func_array() expects parameter 1 to be a valid callback, class 'AdminOrdersController' does not have a method 'printDelivery'] [IN FILE C:\xampp\htdocs\drovazca\app\server\core\router\Dispatcher.php] [LINE 96]
 [2023-04-30 04:04:09] [E_NOTICE: Undefined index: date_creation] [IN FILE C:\xampp\htdocs\drovazca\app\server\var\cache\e5f62c10ca0bdb1779abd2b9d8d7e2c7e0fd1960_0.file.order.tpl.php] [LINE 102]
+[2023-04-30 09:04:08] [E_ERROR: Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "C:\xampp\htdocs\app.drovazca\server\config/.env" environment file. in C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php:567
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(9): Symfony\Component\Dotenv\Dotenv->load('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#5 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php] [LINE 567]
+[2023-04-30 10:04:12] [E_ERROR: Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "C:\xampp\htdocs\app.drovazca\server/.env.dev" environment file. in C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php:567
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(12): Symfony\Component\Dotenv\Dotenv->load('C:\\xampp\\htdocs...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#5 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php] [LINE 567]
+[2023-04-30 10:04:13] [E_ERROR: Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "C:\xampp\htdocs\app.drovazca\server/.env.dev" environment file. in C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php:567
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(12): Symfony\Component\Dotenv\Dotenv->load('C:\\xampp\\htdocs...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#5 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php] [LINE 567]
+[2023-04-30 10:04:57] [E_ERROR: Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "C:\xampp\htdocs\app.drovazca\server/.env.dev" environment file. in C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php:567
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(12): Symfony\Component\Dotenv\Dotenv->load('C:\\xampp\\htdocs...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#5 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php] [LINE 567]
+[2023-04-30 10:04:58] [E_ERROR: Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "C:\xampp\htdocs\app.drovazca\server/.env.dev" environment file. in C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php:567
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(12): Symfony\Component\Dotenv\Dotenv->load('C:\\xampp\\htdocs...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#5 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php] [LINE 567]
+[2023-04-30 10:04:58] [E_ERROR: Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "C:\xampp\htdocs\app.drovazca\server/.env.dev" environment file. in C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php:567
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(12): Symfony\Component\Dotenv\Dotenv->load('C:\\xampp\\htdocs...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#5 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php] [LINE 567]
+[2023-04-30 10:04:31] [E_PARSE: syntax error, unexpected ';'] [IN FILE C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php] [LINE 14]
+[2023-04-30 10:04:47] [E_NOTICE: Undefined index: DB_USER] [IN FILE C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php] [LINE 32]
+[2023-04-30 10:04:10] [E_NOTICE: Undefined index: DB_PASSWD] [IN FILE C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php] [LINE 33]
+[2023-04-30 10:04:18] [E_NOTICE: Undefined index: CACHE_LIFETIME] [IN FILE C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php] [LINE 38]

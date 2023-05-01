@@ -1,6 +1,6 @@
 .vscode
 /__test__/
-/server/var/cache/*
+/server/var/
 
 # Ignore all environment files
 !.env.example
