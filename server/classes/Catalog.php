@@ -85,14 +85,15 @@ class Catalog
    {
       $sql = "SELECT MAX(id_product) as id FROM fs_products WHERE op_status='N'";
       $if_exist = Db::getInstance()->Execute($sql);
-      if (!empty($if_exist)) {
+      if ($if_exist['id'] != null || $if_exist['id'] != '') {
          $id = $if_exist['id'];
+      } else {
+         $sql = "INSERT INTO fs_products (created_at,op_status,is_active) VALUES (NOW(),'N',0)";
+         Db::getInstance()->Execute($sql);
+         $sql = "SELECT MAX(id_product) as id FROM fs_products WHERE op_status='N'";
+         $response = Db::getInstance()->Execute($sql);
+         $id = $response['id'];
       }
-      $sql = "INSERT INTO fs_products (created_at,op_status,is_active) VALUES (NOW(),'N',0)";
-      Db::getInstance()->Execute($sql);
-      $sql = "SELECT MAX(id_product) as id FROM fs_products WHERE op_status='N'";
-      $response = Db::getInstance()->Execute($sql);
-      $id = $response['id'];
       return $id;
    }
 
