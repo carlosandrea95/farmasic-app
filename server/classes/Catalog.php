@@ -84,20 +84,16 @@ class Catalog
    public static function prepareProduct()
    {
       $sql = "SELECT MAX(id_product) as id FROM fs_products WHERE op_status='N'";
-      $res = Db::getInstance()->Execute($sql);
-      if (!empty($res)) {
-         Audit::trail('insert', 'Producto Creado', 'products');
-         return $res['id'];
+      $if_exist = Db::getInstance()->Execute($sql);
+      if (!empty($if_exist)) {
+         $id = $if_exist['id'];
       }
-      $sql = "INSERT INTO " . _DB_PREFIX_ . "products (created_at,op_status,is_active) VALUES (NOW(),'N',0)";
-      $res = Db::getInstance()->Execute($sql);
+      $sql = "INSERT INTO fs_products (created_at,op_status,is_active) VALUES (NOW(),'N',0)";
+      Db::getInstance()->Execute($sql);
       $sql = "SELECT MAX(id_product) as id FROM fs_products WHERE op_status='N'";
-      $res = Db::getInstance()->Execute($sql);
-      if (!empty($res)) {
-         Audit::trail('insert', 'Producto Creado', 'products');
-         return $res['id'];
-      }
-      return false;
+      $response = Db::getInstance()->Execute($sql);
+      $id = $response['id'];
+      return $id;
    }
 
    public static function newProduct()

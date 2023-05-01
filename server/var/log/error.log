@@ -237,3 +237,251 @@ Stack trace:
 [2023-04-30 10:04:47] [E_NOTICE: Undefined index: DB_USER] [IN FILE C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php] [LINE 32]
 [2023-04-30 10:04:10] [E_NOTICE: Undefined index: DB_PASSWD] [IN FILE C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php] [LINE 33]
 [2023-04-30 10:04:18] [E_NOTICE: Undefined index: CACHE_LIFETIME] [IN FILE C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php] [LINE 38]
+[2023-04-30 10:04:53] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(42): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 10:04:57] [E_ERROR: Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "C:\xampp\htdocs\app.drovazca/.env" environment file. in C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php:567
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(12): Symfony\Component\Dotenv\Dotenv->load('C:\\xampp\\htdocs...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#5 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php] [LINE 567]
+[2023-04-30 10:04:13] [E_ERROR: Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "C:\xampp\htdocs\app.drovazca/.env" environment file. in C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php:567
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(12): Symfony\Component\Dotenv\Dotenv->load('C:\\xampp\\htdocs...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#5 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php] [LINE 567]
+[2023-04-30 10:04:16] [E_ERROR: Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "C:\xampp\htdocs\app.drovazca/.env" environment file. in C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php:567
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(12): Symfony\Component\Dotenv\Dotenv->load('C:\\xampp\\htdocs...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#5 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\vendor\symfony\dotenv\Dotenv.php] [LINE 567]
+[2023-04-30 10:04:02] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(33): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\admin\index.php(16): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:31] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(48): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:36] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(48): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:42] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(48): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:42] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(48): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:47] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:48] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:48] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:48] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:49] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:49] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:49] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:49] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:49] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:50] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:50] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:50] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:50] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:50] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:50] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
+[2023-04-30 11:04:51] [E_ERROR: Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php:6
+Stack trace:
+#0 C:\xampp\htdocs\app.drovazca\server\config\bootstrings.php(49): Configuration::get('APP_VERSION')
+#1 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(41): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app.drovazca\server\vendor\composer\autoload_real.php(45): {closure}('d6c3dcb5d11f214...', 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\app.drovazca\server\vendor\autoload.php(25): ComposerAutoloaderInit3f922ddb0930326d09442d48edf879c2::getLoader()
+#4 C:\xampp\htdocs\app.drovazca\config\config.inc.php(12): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\app.drovazca\index.php(2): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [IN FILE C:\xampp\htdocs\app.drovazca\server\classes\Configuration.php] [LINE 6]
