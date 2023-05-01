@@ -92,7 +92,7 @@ class Catalog
          Db::getInstance()->Execute($sql);
          $sql = "SELECT id_product FROM fs_products WHERE op_status='N' ORDER BY id_product DESC LIMIT 1";
          $response = Db::getInstance()->Execute($sql);
-         $id = $response['id'];
+         $id = $response['id_product'];
       }
       return $id;
    }
