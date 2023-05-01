@@ -6,7 +6,7 @@ use Symfony\Component\Dotenv\Dotenv;
 // if server name is localhost, then we are in development environment else don't load .env files and use the environment variables from the server
 if ($_SERVER['SERVER_NAME'] == 'localhost' || 'app.drovazca.local') {
   $dotenv = new Dotenv();
-  $dotenv->load(CURRENT_DIR . '/.env');
+  $dotenv->load(CURRENT_DIR . '/.env.development.local');
   $DB_HOST = $_ENV['DB_HOST'];
   $DB_NAME = $_ENV['DB_NAME'];
   $DB_PORT = $_ENV['DB_PORT'];
